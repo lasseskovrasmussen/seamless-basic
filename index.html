@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <!--HUSK AT UDFYLDE BESKRIVELSE TIL SEO -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallo Social</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body id="main">
+   <div class="front">
+       <div class="back"></div>
+   </div>
+    <header class="header">
+        <a href="http://hallohostelaarhus.com/" target="_blank"><i class="material-icons">arrow_back</i>
+            <p>Return to website</p>
+        </a>
+        <!-- Login formular inspireret af https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal -->
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="login">Login<i class="fa fa-sign-in"></i></button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php">
+                <div>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+                <div class="containerlogin">
+
+                    <h2>Login</h2>
+
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Choose a username" name="uname" required>
+
+                    <label for="room"><b>Room no.</b></label>
+                    <input type="text" placeholder="Type your room no." name="room" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <p class="forgot">Forgot your password? Get a new one in the reception.</p>
+
+                    <button type="submit"><strong>Login</strong></button>
+
+                </div>
+
+            </form>
+        </div>
+    </header>
+
+    <div id="logo">
+        <img src="images/hallologo.png" alt="Hallo Social logo">
+        <h1>- It all starts with hallo</h1>
+    </div>
+
+    <div id="sort">
+        <a href="index.html"><button type="button" class="active sortering">Newest</button></a>
+        <a href="upcoming.html"><button type="button" class="inactive sortering">Upcoming</button></a>
+        <a href="popular.html"><button type="button" class="inactive sortering">Popular</button></a>
+    </div>
+
+    <a href="bike.html">
+        <section class="event top">
+            <img src="images/cykel.jpg" alt="Bicycle">
+            <div class="dato">
+                <strong>9</strong> oct
+            </div>
+            <div class="ikon">
+                <i class="material-icons">group<p>0</p></i>
+                <i class="material-icons">chat<p>2</p></i>
+            </div>
+            <div class="titel">
+                <h2>Bike ride around the city</h2>
+                <p>- Tag along and experience Aarhus by bike</p>
+            </div>
+        </section>
+    </a>
+
+    <a href="aros.html">
+        <section class="event">
+            <img src="images/aros.jpg" alt="Aros rainbow">
+            <div class="dato">
+                <strong>3</strong> oct
+            </div>
+            <div class="ikon">
+                <i class="material-icons">group<p>5</p></i>
+                <i class="material-icons">chat<p>8</p></i>
+            </div>
+            <div class="titel">
+                <h2>Visit ARoS museum</h2>
+                <p>- Join our trip to ARoS</p>
+            </div>
+        </section>
+    </a>
+
+    <a href="movienight.html">
+        <section class="event clear">
+            <img src="images/film.jpg" alt="Movie night">
+            <div class="dato">
+                <strong>14</strong> oct
+            </div>
+            <div class="ikon">
+                <i class="material-icons">group<p>15</p></i>
+                <i class="material-icons">chat<p>18</p></i>
+            </div>
+            <div class="titel">
+                <h2>Movie night in the café</h2>
+                <p>- Experience Danish 'hygge' right here at our café</p>
+            </div>
+        </section>
+    </a>
+
+    <script type="text/javascript" src="js/script.js">
+    </script>
+</body>
+
+</html>
