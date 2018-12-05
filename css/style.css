@@ -38,15 +38,20 @@ footer {
     position: absolute;
     bottom: 0;
     text-align: center;
-    padding-bottom: 20px;
+    display: block;
 }
 
 .footer-list {
     list-style-type: none;
 }
 
+.footer-logo {
+    width: 20%;
+}
+
 .kontakt-footer {
-    font-size: 20px;
+    font-size: 30px;
+    margin: 5px 0 5px 0;
 }
 
 .footer-info {
@@ -55,5 +60,36 @@ footer {
 }
 
 .faq {
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+.instagram {
+    width: 10%;
+    float: right;
+    margin: 20px;
+}
+
+/* Laptop */
+
+@media (min-width: 768px) {
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .footer-logo {
+        width: 7%;
+    }
+    .kontakt-info, .fakta {
+        width: 15%;
+    }
+    
+    .fakta {
+        margin-top: -30px;
+    }
+
+    .instagram {
+        width: 15%;
+        align-content: flex-end;
+    }
 }
