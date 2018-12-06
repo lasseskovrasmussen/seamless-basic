@@ -172,6 +172,10 @@ footer {
 }
 
 /*WEBSHOP */
+/* Hele galleriet - billeder af tøj og beskrivelser) */
+.galleri {
+    margin: 10px 20px 10px 20px;
+}
 
 /* wrapper om billede og produktinformationen */
 
@@ -250,5 +254,15 @@ footer {
     .instagram {
         margin-top: 50px;
 
+    }
+    
+    /*WEBSHOP*/
+    .galleri {
+    margin: 20px 60px 20px 60px;
+}
+    }
+    /* produktstørrelse*/
+    .produkt {
+        width: 31.6%;
     }
 }
