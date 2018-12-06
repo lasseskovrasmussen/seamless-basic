@@ -56,13 +56,14 @@ body {
 
 /*Burgermenu links */ 
 .overlay a {
-    padding-bottom: 50px;
+    padding: 20px;
     text-decoration: none;
-    font-size: 46px;
+    font-size: 38px;
     color: white;
     display: block;
     transition: 0.3s;
     font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid
 }
 
 
@@ -72,10 +73,12 @@ body {
     right: 90%;
     font-size: 60px;
     padding: 0;
+    border-bottom: none;
 }
 
 .overlay-content img{
     width:100px;
+    padding-top: 20px;
    
 }
 
@@ -108,7 +111,8 @@ label{
 .indkob{
     width:44px;
     position: relative;
-    left:69%
+    left:67%
+        
 }
 
 
