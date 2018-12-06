@@ -87,30 +87,47 @@ header{
     width:100%;
 }
 
+.comlogo{
+    display:none;
+}
+
+.commenu{
+    display:none;
+}
+
 
 /*burgermenu-symbol*/
 label{
     margin-left: 2%;
     color:#4C4044;
     font-size: 36px;
+    position: absolute;
+  
 
 }
 
 
 /*logo i midten af header*/
 .headlogo{
-    width:7%;
-    position: relative;
-    margin-left:33%;
+    min-width: 33px;
+    max-width:33px;
+    position: absolute;
+    left:45%;
+    top:3.4%
 
 }
 
 .indkob{
     width:10%;
-    position: relative;
-    margin-left: 32%
+    position: absolute;
+    left:83%;
+    min-width: 50px;
+    max-width:50px;
         
 }
+
+
+
 
 
 
@@ -172,19 +189,63 @@ footer {
 @media (min-width: 768px) {
     
     /*header*/
+    header{
+        position:fixed;
+    }
+    
     .headlogo{
         display: none;
     }
     
     .indkob{
-        width:5%;
-        margin-left:88%
+        max-width:60px;
+        min-width:60px;
+        left:95%;
+        top:22px;
+        margin-right: 2px;
+
+    }
+    
+    label{
+        display: none;
+    }
+    
+    .comlogo{
+        display: inline;
+        min-width: 150px;
+        max-width: 250px;
+        margin-top:8px;
+        margin-left:2%;
+        display: inline-block;
+        min-height: 30px;
+       
         
     }
     
     
     
+    .commenu{
+        display: inline;
+        list-style: none;
+        white-space: nowrap;
+
+    }
     
+  
+   .commenu a{
+          
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    margin-top:-6px;
+    padding-left: 80px;
+    color: #4C4044;
+    float:left;
+    position:relative;
+    top: -30px;   
+    left:32%      
+    }
+
     
     .footer-list {
         display: flex;
