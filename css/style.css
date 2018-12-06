@@ -127,23 +127,14 @@ label {
     position: absolute;
     left:83%;
     min-width: 50px;
-    max-width:50px;}
+    max-width:50px;
+}
         
 
 
-.headlogo {
-    width: 7%;
-    position: relative;
-    margin-left: 33%;
 
-}
 
-.indkob {
-    width: 10%;
-    position: relative;
-    margin-left: 32%
 
-}
 
 
 /* footer */
