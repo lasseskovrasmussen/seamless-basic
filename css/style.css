@@ -179,8 +179,7 @@ footer {
     }
 
     .instagram {
-        flex-basis: 400%;
+    margin-top: 50px;
 
-    }
-    
+    }    
 }
