@@ -55,7 +55,7 @@ body {
 .overlay a {
     padding: 20px;
     text-decoration: none;
-    font-size: 38px;
+    font-size: 33px;
     color: white;
     display: block;
     transition: 0.3s;
@@ -99,22 +99,20 @@ label{
 
 /*logo i midten af header*/
 .headlogo{
-    width:27px;
+    width:7%;
     position: relative;
-    left:35%;
+    margin-left:33%;
 
 }
 
 .indkob{
-    width:44px;
+    width:10%;
     position: relative;
-    left:67%
+    margin-left: 32%
         
 }
 
 
-    
-    
 
 footer {
     font-family: 'Raleway', sans-serif;
@@ -172,6 +170,22 @@ footer {
 /* Laptop */
 
 @media (min-width: 768px) {
+    
+    /*header*/
+    .headlogo{
+        display: none;
+    }
+    
+    .indkob{
+        width:5%;
+        margin-left:88%
+        
+    }
+    
+    
+    
+    
+    
     .footer-list {
         display: flex;
         flex-direction: row;
