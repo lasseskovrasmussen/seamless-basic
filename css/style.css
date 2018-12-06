@@ -113,7 +113,7 @@ label{
 }
 
 
-
+/* footer */
 footer {
     font-family: 'Raleway', sans-serif;
     background-color: #768281;
@@ -125,29 +125,31 @@ footer {
     display: block;
 }
 
-
+/* punkterne i footeren */
 .footer-list {
     list-style-type: none;
 }
 
+/* logo i footer */
 .footer-logo {
     width: 20%;
 }
-
+/* kontaktinfo i footer */
 .kontakt-footer {
     font-size: 30px;
     margin: 5px 0 5px 0;
 }
-
+/* faq infoen i footer */
 .footer-info {
     color: white;
     text-decoration: none;
 }
-
+/* faq overksrift footer */
 .faq {
     font-size: 30px;
     margin-bottom: -30px;
 }
+/* instagram link */
 .instagram {
     width: 10%;
     float: right;
@@ -156,16 +158,38 @@ footer {
 
 /*WEBSHOP */
 
-/*Alle billeder i webshoppen */
-.toj-galleri {
+/* wrapper om billede og produktinformationen */
+.produkt {
     float: left;
-    width: 40%;
-    margin: 10px;  
+    margin: 10px;
 }
 
-.produkt {
-    
+.produkt .toj-galleri {
+    width: 100%;
+    height: auto;
 }
+
+.toj-galleri:hover {
+    border: 2px solid #ffff;
+}
+
+/* Wrapper om produktinformation */
+.produktbeskrivelse {
+    color: #4C4044;
+    text-align: center;
+}
+
+/* tøj type beskrivelse under billedet */
+
+/* læg i kurv knap */
+.kurv-knap {
+    background-color: #4C4044;
+    color: white; 
+    width: 60%;
+    font-size: 20px;
+    padding: 5px;
+}
+
 
 /* Laptop */
 
@@ -182,10 +206,8 @@ footer {
         
     }
     
-    
-    
-    
-    
+
+    /*Footer */
     .footer-list {
         display: flex;
         flex-direction: row;
