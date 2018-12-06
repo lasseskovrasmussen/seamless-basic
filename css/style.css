@@ -56,7 +56,7 @@ body {
 
 /*Burgermenu links */ 
 .overlay a {
-    padding: 22px;
+    padding-bottom: 50px;
     text-decoration: none;
     font-size: 46px;
     color: white;
@@ -68,9 +68,10 @@ body {
 
 .overlay .closebtn {
     position: absolute;
-    top:-10px;
-    right: 80%;
+    top:10px;
+    right: 90%;
     font-size: 60px;
+    padding: 0;
 }
 
 .overlay-content img{
