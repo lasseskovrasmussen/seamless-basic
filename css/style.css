@@ -4,9 +4,6 @@ FONTE
 font-family: 'Abril Fatface', cursive;
 font-family: 'Raleway', sans-serif; */
 
-
-    
-
 html,
 body {
     margin: 0;
@@ -157,6 +154,19 @@ footer {
     width: 10%;
     float: right;
     margin: 20px;
+}
+
+/*WEBSHOP */
+
+/*Alle billeder i webshoppen */
+.toj-galleri {
+    float: left;
+    width: 40%;
+    margin: 10px;  
+}
+
+.produkt {
+    
 }
 
 /* Laptop */
