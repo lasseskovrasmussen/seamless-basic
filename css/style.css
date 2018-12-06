@@ -162,12 +162,16 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        justify-content: space-between;
+        margin: 5px;
     }
     .footer-logo {
         width: 7%;
+        margin-right: 0;
     }
     .kontakt-info, .fakta {
         width: 15%;
+        margin-left: -20%;
     }
     
     .fakta {
@@ -175,7 +179,7 @@ footer {
     }
 
     .instagram {
-        width: 15%;
-        align-content: flex-end;
-    }
+    margin-top: 50px;
+
+    }    
 }
