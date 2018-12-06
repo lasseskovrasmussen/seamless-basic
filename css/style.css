@@ -256,8 +256,7 @@ footer {
         min-width:60px;
         left:95%;
         top:22px;
-        margin-right: 2px;
-
+       
     }
     
     label{
@@ -306,10 +305,6 @@ footer {
         display: none;
     }
 
-    .indkob {
-        width: 5%;
-        margin-left: 88%
-    }
 
 
     /*Footer */
