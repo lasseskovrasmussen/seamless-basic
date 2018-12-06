@@ -39,11 +39,13 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:  #768281;
+    background-color: #768281;
     overflow-x: hidden;
     transition: 0.5s;
 }
+
 /* overlay indhold */
+
 .overlay-content {
     position: relative;
     top: 10%;
@@ -51,7 +53,8 @@ body {
     text-align: center;
 }
 
-/*Burgermenu links */ 
+/*Burgermenu links */
+
 .overlay a {
     padding: 20px;
     text-decoration: none;
@@ -66,25 +69,25 @@ body {
 
 .overlay .closebtn {
     position: absolute;
-    top:10px;
+    top: 10px;
     right: 90%;
     font-size: 60px;
     padding: 0;
     border-bottom: none;
 }
 
-.overlay-content img{
-    width:100px;
+.overlay-content img {
+    width: 100px;
     padding-top: 20px;
-   
+
 }
 
-/*header - burgermenu lukkede*/ 
+/*header - burgermenu lukkede*/
 
-header{
-    height:80px;
+header {
+    height: 80px;
     box-shadow: 0px 10px 6px #E8E8E8;
-    width:100%;
+    width: 100%;
 }
 
 .comlogo{
@@ -97,9 +100,10 @@ header{
 
 
 /*burgermenu-symbol*/
-label{
+
+label {
     margin-left: 2%;
-    color:#4C4044;
+    color: #4C4044;
     font-size: 36px;
     position: absolute;
   
@@ -108,6 +112,7 @@ label{
 
 
 /*logo i midten af header*/
+
 .headlogo{
     min-width: 33px;
     max-width:33px;
@@ -124,9 +129,24 @@ label{
     min-width: 50px;
     max-width:50px;
         
+
+
+.headlogo {
+    width: 7%;
+    position: relative;
+    margin-left: 33%;
+
+}
+
+.indkob {
+    width: 10%;
+    position: relative;
+    margin-left: 32%
+
 }
 
 
+/* footer */
 
 
 
@@ -142,29 +162,41 @@ footer {
     display: block;
 }
 
+/* punkterne i footeren */
 
 .footer-list {
     list-style-type: none;
 }
 
+/* logo i footer */
+
 .footer-logo {
     width: 20%;
 }
+
+/* kontaktinfo i footer */
 
 .kontakt-footer {
     font-size: 30px;
     margin: 5px 0 5px 0;
 }
 
+/* faq infoen i footer */
+
 .footer-info {
     color: white;
     text-decoration: none;
 }
 
+/* faq overksrift footer */
+
 .faq {
     font-size: 30px;
     margin-bottom: -30px;
 }
+
+/* instagram link */
+
 .instagram {
     width: 10%;
     float: right;
@@ -173,22 +205,49 @@ footer {
 
 /*WEBSHOP */
 
-/*Alle billeder i webshoppen */
-.toj-galleri {
-    float: left;
-    width: 40%;
-    margin: 10px;  
-}
+/* wrapper om billede og produktinformationen */
 
 .produkt {
-    
+    float: left;
+    margin: 10px;
+    width: 45%;
 }
+
+.produkt .toj-galleri {
+    width: 100%;
+    height: auto;
+}
+
+.toj-galleri:hover {
+    border: 2px solid #ffff;
+}
+
+/* Wrapper om produktinformation */
+
+.produktbeskrivelse {
+    color: #4C4044;
+    text-align: center;
+}
+
+/* tøj type beskrivelse under billedet */
+
+/* læg i kurv knap */
+
+.kurv-knap {
+    background-color: #4C4044;
+    color: white;
+    width: 70%;
+    font-size: 20px;
+    padding: 5px;
+}
+
 
 /* Laptop */
 
 @media (min-width: 768px) {
-    
+
     /*header*/
+
     header{
         position:fixed;
     }
@@ -247,6 +306,18 @@ footer {
     }
 
     
+
+    .headlogo {
+        display: none;
+    }
+
+    .indkob {
+        width: 5%;
+        margin-left: 88%
+    }
+
+
+    /*Footer */
     .footer-list {
         display: flex;
         flex-direction: row;
@@ -258,17 +329,18 @@ footer {
         width: 7%;
         margin-right: 0;
     }
-    .kontakt-info, .fakta {
+    .kontakt-info,
+    .fakta {
         width: 15%;
         margin-left: -20%;
     }
-    
+
     .fakta {
         margin-top: -30px;
     }
 
     .instagram {
-    margin-top: 50px;
+        margin-top: 50px;
 
-    }    
+    }
 }

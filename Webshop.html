@@ -11,22 +11,131 @@
 </head>
 
 <body>
-    <script src=""></script>
-    <!-- filtrering af tøj -->
+   
+   <!-- Mobil menu -->
+<div id="myNav" class="overlay">
 
-    <!-- Tøjgalleri -->
-    <div class="produkt">
-<a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
-<div>
-<h3>Elvira</h3><p class="beskrivelse">Seamless long sleeve t-shirt</p><p class="pris">299 kr</p><button class="kurv-knap">Læg i kurv</button>
+  <!-- lukke knap i burgermenu -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Menu indhold -->
+  <div class="overlay-content">
+   
+    <a href="#">Forside</a>
+    <a href="#">Webshop</a>
+    <a href="#">Hvem er vi?</a>
+    <img class="burgerlogo" src="images/hvidt-logo.png" alt="seamless-basic logo">
+    
+  </div>
+
 </div>
+<header>
+
+    <div class="fragt">
+        <p class="breaking" ""><span class="fed">FRI</span> FRAGT &amp; <span class="fed">FRI</span> RETURNERING</p>
     </div>
 
-<a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
-<a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
-<a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
-<a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
-<a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
+<!-- Åben burger menu med -->
+<label onclick="openNav()" class="burgermenu"> &#9776;</label>
 
+<img class="headlogo" src="images/morktlogo.png" alt="seamless-basic logo">
+
+<a href="#"><img src="images/indkobskurv.png" alt="indkøbskurv" class="indkob"></a>
+
+</header>
+ 
+
+   
+   
+    <!-- filtrering af tøj -->
+
+   
+    <!-- Tøjgalleri -->
+    <div class="produkt">
+        <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+    
+    <div class="produkt merinould hvid overdel">
+        <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+    
+    <div class="produkt silke sort underdel">
+        <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+        
+    </div>
+    <div class="produkt bomuld sort overdel">
+        <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+    
+    <div class="produkt merinould hvid overdel">
+        <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+    
+    <div class="produkt silke sort underdel">
+        <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+ 
+  <footer>
+        <ul class="footer-list">
+            <img src="images/hvidt-logo.png" alt="logo" class="footer-logo">
+            <div class="kontakt-info">
+                <li>
+                    <h3 class="kontakt-footer">Kontakt</h3>
+                </li>
+                <li><a href="#" class="footer-info">Adresse</a></li>
+                <li><a href="#" class="footer-info">Telefon</a></li>
+                <li><a href="#" class="footer-info">E-mail</a></li>
+            </div>
+            <div class="fakta">
+                <li class="faq">
+                    <h4>FAQ</h4>
+                </li>
+                <li><a href="#" class="footer-info">Forsendelse</a></li>
+                <li><a href="#" class="footer-info">Handelsbetingelser</a></li>
+            </div> 
+            <a href="https://www.instagram.com/seamlessbasic/"><img src="images/instagram.png" alt="instagram" class="instagram"></a>           
+        </ul>
+        
+    </footer>
+   
+      <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 </body>
 </html>
