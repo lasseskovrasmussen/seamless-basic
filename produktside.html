@@ -19,24 +19,25 @@
 </head>
 
 <body>
-    <!-- Mobil menu -->
-    <div id="myNav" class="overlay">
+    <header>
+        <!-- Mobil menu -->
+        <div id="myNav" class="overlay">
 
-        <!-- lukke knap i burgermenu -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- lukke knap i burgermenu -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-        <!-- Menu indhold -->
-        <div class="overlay-content">
+            <!-- Menu indhold -->
+            <div class="overlay-content">
 
-            <a href="#">Forside</a>
-            <a href="#">Webshop</a>
-            <a href="#">Hvem er vi?</a>
-            <img class="burgerlogo" src="images/hvidt-logo.png" alt="seamless-basic logo">
+                <a href="#">Forside</a>
+                <a href="#">Webshop</a>
+                <a href="#">Hvem er vi?</a>
+                <img class="burgerlogo" src="images/hvidt-logo.png" alt="seamless-basic logo">
+
+            </div>
 
         </div>
 
-    </div>
-    <header>
 
         <div class="fragt">
             <p class="breaking" ""><span class="fed">FRI</span> FRAGT &amp; <span class="fed">FRI</span> RETURNERING</p>
@@ -57,9 +58,10 @@
         <a href="#"><img src="images/indkobskurv.png" alt="indkøbskurv" class="indkob"></a>
 
     </header>
-
-
-    <!-- produktside main -->
+    
+    
+    
+   <!-- produktside main -->
     <section>
 
         <!-- breadcrumbs -->
@@ -79,6 +81,7 @@
             <h1>Elvira</h1>
             <h2>Seamless longsleeve t-shirt</h2>
             <h3>299 DKK</h3>
+        </div>
 
             <div class="info_tekst">
                 <div class="container">
@@ -88,95 +91,132 @@
                 <p><i class="fa fa-circle"></i> One size (passer str. 36-40)</p>
             </div>
 
-            <a onclick="#" class="kurv_knap">
-Læg i kurv 
-</a>
+         
+             <!-- produkter bund -->
 
-            <div class="fri_fragt">
-                <img src="images/fri_fragt.jpg" alt="fragt logo">
-                <p>fri fragt og retunering</p>
-            </div>
-        </div>
-    </section>
+                <section class="produkter_bund">
 
-    <!-- produkter bund -->
-
-    <section class="produkter_bund">
-
-        <div class="produkter_bund_overskrift">
-            <h2 class="overskrift_bund">Populære produkter</h2>
-            <div class="streg_overskrift"></div>
-        </div>
-        <img src="images/seamless-top.jpg" alt="">
-        <h1>Elvira</h1>
-        <h2>Seamless longsleeve t-shirt</h2>
-        <h3>299 DKK</h3>
+                    <div class="produkter_bund_overskrift">
+                        <h2 class="overskrift_bund">Populære produkter</h2>
+                        <div class="streg_overskrift"></div>
+                    </div>
+                    <img src="images/seamless-top.jpg" alt="">
+                    <h1>Elvira</h1>
+                    <h2>Seamless longsleeve t-shirt</h2>
+                    <h3>299 DKK</h3>
 
 
-        <img src="images/seamless-overdel.jpg" alt="">
-        <h1>Elvira</h1>
-        <h2>Seamless longsleeve t-shirt</h2>
-        <h3>299 DKK</h3>
-    </section>
+                    <img src="images/seamless-overdel.jpg" alt="">
+                    <h1>Elvira</h1>
+                    <h2>Seamless longsleeve t-shirt</h2>
+                    <h3>299 DKK</h3>
+                </section>
 
 
 
+           < div class="produkter_bund">
+
+                    <div class="produkter_bund_overskrift">
+                        <h2 class="overskrift_bund">Populære produkter</h2>
+                        <div class="streg_overskrift"></div>
+                    </div>
 
 
-    <footer>
-        <ul class="footer-list">
-            <img src="images/hvidt-logo.png" alt="logo" class="footer-logo">
-            <div class="kontakt-info">
-                <li>
-                    <h3 class="kontakt-footer">Kontakt</h3>
-                </li>
-                <li><a href="#" class="footer-info">Adresse</a></li>
-                <li><a href="#" class="footer-info">Telefon</a></li>
-                <li><a href="#" class="footer-info">E-mail</a></li>
-            </div>
-            <div class="fakta">
-                <li class="faq">
-                    <h4>FAQ</h4>
-                </li>
-                <li><a href="#" class="footer-info">Forsendelse</a></li>
-                <li><a href="#" class="footer-info">Handelsbetingelser</a></li>
-            </div>
-            <a href="https://www.instagram.com/seamlessbasic/"><img src="images/instagram.png" alt="instagram" class="instagram"></a>
-        </ul>
+                    <div class="produkt">
+                        <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+                        <div class="produktbeskrivelse">
+                            <h3>Elvira</h3>
+                            <p class="type">Seamless long sleeve t-shirt</p>
+                            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+                        </div>
+                    </div>
 
-    </footer>
+                    <div class="produkt merinould hvid overdel">
+                        <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+                        <div class="produktbeskrivelse">
+                            <h3>Elvira</h3>
+                            <p class="type">Seamless long sleeve t-shirt</p>
+                            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+                        </div>
+                    </div>
+    
 
-    <!-- script til burgermenu -->
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
+        
+        <footer>
+            <ul class="footer-list">
+                <img src="images/hvidt-logo.png" alt="logo" class="footer-logo">
+                <div class="kontakt-info">
+                    <li>
+                        <h3 class="kontakt-footer">Kontakt</h3>
+                    </li>
+                    <li><a href="#" class="footer-info">Adresse</a></li>
+                    <li><a href="#" class="footer-info">Telefon</a></li>
+                    <li><a href="#" class="footer-info">E-mail</a></li>
+                </div>
+                <div class="fakta">
+                    <li class="faq">
+                        <h4>FAQ</h4>
+                    </li>
+                    <li><a href="#" class="footer-info">Forsendelse</a></li>
+                    <li><a href="#" class="footer-info">Handelsbetingelser</a></li>
+                </div>
+                <a href="https://www.instagram.com/seamlessbasic/"><img src="images/instagram.png" alt="instagram" class="instagram"></a>
+            </ul>
 
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
+        </footer>
 
-    </script>
+        <!-- script til burgermenu -->
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
 
-    <!-- script til slideshow -->
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+        </script>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.fade').slick({
-                dots: true,
-                infinite: true,
-                speed: 500,
-                fade: true,
-                cssEase: 'linear'
-            });
-        });
+        <!-- script til slideshow -->
 
-    </script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js">
+            </script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
 
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.fade').slick({
+                        dots: true,
+                        infinite: true,
+                        speed: 500,
+                        fade: true,
+                        cssEase: 'linear'
+                    });
+                });
+
+            </script>
+
+           
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.fade').slick({
+                        dots: true,
+                        infinite: true,
+                        speed: 500,
+                        fade: true,
+                        cssEase: 'linear',
+                    });
+
+                });
+
+            </script>
+
+            
 </body>
 
 </html>
