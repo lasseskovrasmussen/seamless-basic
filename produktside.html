@@ -75,6 +75,8 @@
   <div><img src="images/produkt_hvid2.jpg" alt=""></div>
 </div>
 
+<!-- tjek ud hvordan man skifter et billed i inner html med js -->
+
 <div class="info">
 <h1>Elvira</h1>
 <h2>Seamless longsleeve t-shirt</h2>
@@ -101,23 +103,32 @@ Læg i kurv
 
 <!-- produkter bund -->
 
-<section class="produkter_bund">
+<div class="produkter_bund">
    
    <div class="produkter_bund_overskrift">
     <h2 class="overskrift_bund">Populære produkter</h2>
     <div class="streg_overskrift"></div>
     </div>
-    <img src="images/seamless-top.jpg" alt="">
-    <h1>Elvira</h1>
-    <h2>Seamless longsleeve t-shirt</h2>
-    <h3>299 DKK</h3>
     
-       
-    <img src="images/seamless-overdel.jpg" alt="">
-    <h1>Elvira</h1>
-    <h2>Seamless longsleeve t-shirt</h2>
-    <h3>299 DKK</h3>
-</section>
+    
+    <div class="produkt">
+        <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+    
+        <div class="produkt merinould hvid overdel">
+        <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+        <div class="produktbeskrivelse">
+            <h3>Elvira</h3>
+            <p class="type">Seamless long sleeve t-shirt</p>
+            <p class="pris">299 DKK</p><button class="kurv-knap">Læg i kurv</button>
+        </div>
+    </div>
+</div>
 
 
   
@@ -170,8 +181,9 @@ function closeNav() {
   infinite: true,
   speed: 500,
   fade: true,
-  cssEase: 'linear'
+  cssEase: 'linear',
 });
+        
       });
   </script>
   
