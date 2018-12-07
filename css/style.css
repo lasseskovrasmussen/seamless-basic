@@ -323,6 +323,10 @@ footer {
 }
 /* produktside styling */
 
+.main_section{
+    margin-top: 100px;
+}
+
 /* breadcrumbs */
 
 ul.breadcrumb {
@@ -350,6 +354,7 @@ ul.breadcrumb li a {
 .fade{
     width: 80%;
     margin: 10%;
+    margin-top: 2%
 }
 
 .fade img{
@@ -430,7 +435,7 @@ font-weight: 100;
 
 .produkter_bund{
     position: relative;
-    top: -150px;
+    top: -170px;
 }
 
 
@@ -447,7 +452,7 @@ font-weight: 100;
     width: 37%;
     position: absolute;
     right: 5px;
-    top: 153%;
+    top: 24px;
     
 }
 
