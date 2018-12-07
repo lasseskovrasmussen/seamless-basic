@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="utf-8">
@@ -8,12 +8,15 @@
     <meta name="Author" content="Christian Plovst">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seamless Basic</title>
+    <meta name="description" content="Seamless Basic er tøjvirksomhed, som producerer basistøj i høj kvalitet.">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="images" href="images/morktlogo.png">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
 
 </head>
 
 <body>
+
 
     <div class="fragt">
 
@@ -32,6 +35,85 @@
     </div>
 
 
+
+    <!-- Mobil menu -->
+    <div id="myNav" class="overlay">
+
+        <!-- lukke knap i burgermenu -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Menu indhold -->
+        <div class="overlay-content">
+
+            <a href="index.html">Forside</a>
+            <a href="webshop.html">Webshop</a>
+            <a href="#">Hvem er vi?</a>
+            <img class="burgerlogo" src="images/hvidt-logo.png" alt="seamless-basic logo">
+
+        </div>
+
+    </div>
+    <header>
+
+        <div class="fragt">
+            <p class="breaking" ""><span class="fed">FRI</span> FRAGT &amp; <span class="fed">FRI</span> RETURNERING</p>
+        </div>
+
+        <!-- Åben burger menu med -->
+        <label onclick="openNav()" class="burgermenu"> &#9776;</label>
+
+        <img class="headlogo" src="images/morktlogo.png" alt="seamless-basic logo">
+        <img src="images/logomenu.png" alt="seamless-basic logo" class="comlogo">
+
+        <ul class="commenu">
+            <li><a href="index.html">Forside</a></li>
+            <li> <a href="webshop.html">Webshop</a></li>
+            <li> <a href="#">Hvem er vi?</a></li>
+        </ul>
+
+        <a href="#"><img src="images/indkobskurv.png" alt="indkøbskurv" class="indkob"></a>
+
+    </header>
+
+
+
+
+
+    <footer>
+        <ul class="footer-list">
+            <img src="images/hvidt-logo.png" alt="logo" class="footer-logo">
+            <div class="kontakt-info">
+                <li>
+                    <h3 class="kontakt-footer">Kontakt</h3>
+                </li>
+                <li><a href="#" class="footer-info">Adresse</a></li>
+                <li><a href="#" class="footer-info">Telefon</a></li>
+                <li><a href="#" class="footer-info">E-mail</a></li>
+            </div>
+            <div class="fakta">
+                <li class="faq">
+                    <h4>FAQ</h4>
+                </li>
+                <li><a href="#" class="footer-info">Forsendelse</a></li>
+                <li><a href="#" class="footer-info">Handelsbetingelser</a></li>
+            </div>
+            <a href="https://www.instagram.com/seamlessbasic/"><img src="images/instagram.png" alt="instagram" class="instagram"></a>
+        </ul>
+
+    </footer>
+
+    <!-- script til burgermenu -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+    >>>>>>> 20b2daad5f8db10499bd53a6f2417f19d46cf19d
 </body>
 
 </html>
