@@ -2,12 +2,23 @@
 FONTE
 
 font-family: 'Abril Fatface', cursive;
-font-family: 'Raleway', sans-serif; */
 
-html,
+font-family: 'Raleway', sans-serif;*/
+
+font-family: 'Raleway',
+sans-serif;
+*/ html,
 body {
     margin: 0;
 
+}
+
+h1,
+p,
+h2,
+h3{
+ font-family: 'Raleway', sans-serif;
+    
 }
 
 .fragt {
@@ -89,8 +100,9 @@ header {
     box-shadow: 0px 10px 6px #E8E8E8;
     width: 100%;
     background-color: white;
-    position:sticky; 
-    top:0;
+    position: fixed;
+    top: 0;
+
 }
 
 .comlogo {
@@ -133,20 +145,56 @@ label {
     max-width: 50px;
 }
 
-
-
-
-
-
-
-
-
 /*WEBSHOP */
 /* Filtrering af tøjet*/
 .filtrering {
     width: 100%;
     margin: 10px 25px 10px 20px;
 }
+
+/* punkterne i footeren */
+.footer-list {
+    list-style-type: none;
+}
+
+/* logo i footer */
+
+.footer-logo {
+    width: 20%;
+}
+
+/* kontaktinfo i footer */
+
+.kontakt-footer {
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+
+/* faq infoen i footer */
+
+.footer-info {
+    color: white;
+    text-decoration: none;
+}
+
+/* faq overksrift footer */
+
+.faq {
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+/* instagram link */
+
+.instagram {
+    width: 10%;
+    float: right;
+    margin: 20px;
+}
+
+/*WEBSHOP */
+
+/* Filtrering af tøjet*/
 
 .filterdrop {
     background-color: #ffff;
@@ -171,7 +219,7 @@ label {
     position: absolute;
     background-color: #fff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -198,11 +246,24 @@ label {
 }
 
 
+
 .filterknapper:hover .filter-content {display: block;}
 .filterknapper:hover .filter-content1 {display: block;}
 .filterknapper:hover .filter-content2 {display: block;}
 
 .filterknapper:hover .filterdrop {background-color: #fff;}
+
+.filter-content a:hover {
+    background-color: #ddd;
+}
+
+.filterknapper:hover .filter-content {
+    display: block;
+}
+
+.filterknapper:hover .filterdrop {
+    background-color: #3e8e41;
+}
 
 /* Hele galleriet - billeder af tøj og beskrivelser) */
 
@@ -298,13 +359,151 @@ footer {
     width: 10%;
     float: right;
     margin: 20px;
+    width: 70%;
+    font-size: 20px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+
 }
 
-/* Laptop */
+.fed {
+    font-weight: font-weight: bold;
+}
 
-@media (min-width: 768px) {
+.breaking {
+    margin: 0;
+    padding-top: 4px;
+padding: 5px;
+}
+/* produktside styling */
 
-    /*header*/
+/* breadcrumbs */
+
+ul.breadcrumb {
+    margin: 30px 0px 0px -15px;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+    color: #4C4044;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #4C4044;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* slideshow */ 
+
+
+
+.fade{
+    width: 80%;
+    margin: 10%;
+}
+
+.fade img{
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color:#768281 !important;
+}
+
+/*produkt information */
+.info h1 {
+text-align: center;
+color: #4C4044;
+font-size: 40px;
+margin-bottom: 0;
+}
+
+.info h2 {
+text-align: center;
+color: #4C4044;
+font-size: 12px;
+font-weight: normal;
+
+
+}
+.info h3 {
+text-align: center;
+color: #4C4044;
+font-size: 16px;
+font-weight: 100;
+}
+
+.fa{
+    margin-right: 15px;
+}
+
+
+.info_tekst p{
+    font-size: 16px;
+    color: #4C4044;
+    margin: 10px 0px 10px 10%;
+}
+
+.container {
+    display: flex;
+}
+
+/* læg i kurv & fragt */
+.kurv_knap{
+    background-color: #4C4044;
+    padding: 10px 40px 10px 40px;
+    margin: 0% 30% 0% 30%;
+    color: white;
+    font-family:  'Raleway', sans-serif;
+    font font-size: 16px;
+    line-height: 16;
+    position: relative;
+    top: -90px;
+}
+
+.fri_fragt img{
+    width: 40px;
+    height:30px;
+    margin-right: 10px;
+}
+
+.fri_fragt {
+    display: flex;
+    position: relative;
+    top: -190px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* populære produkter (bund af produktside)*/
+.overskrift_bund{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    margin-left: 15px;
+    color: #4C4044;
+}
+.streg_overskrift{
+    background-color: #768281;
+    padding: 1px 1px 2.5px 1px;
+    margin: 0;
+    width: 37%;
+    position: absolute;
+    right: 5px;
+    top: 153%;
+    
+}
+
+
+/*tablet*/
+
+@media (min-width: 767px) {
 
     header {
         position: fixed;
@@ -317,7 +516,7 @@ footer {
     .indkob {
         max-width: 60px;
         min-width: 60px;
-        left: 95%;
+        left: 89%;
         top: 22px;
     }
 
@@ -326,13 +525,9 @@ footer {
     }
 
     .comlogo {
-        display: inline;
-        min-width: 150px;
-        max-width: 250px;
-        margin-top: 8px;
-        margin-left: 2%;
-        display: inline-block;
-        min-height: 30px;
+
+        display: none;
+
     }
 
     .commenu {
@@ -344,7 +539,7 @@ footer {
 
     .commenu a {
 
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
         margin-top: -6px;
@@ -352,18 +547,19 @@ footer {
         color: #4C4044;
         float: left;
         position: relative;
-        top: -30px;
-        left: 32%
+        top: ;
+        left: 14%
     }
 
     .headlogo {
-        display: none;
+        display: inline;
+        left: 2%
     }
+
 
 
 
     /*Footer */
-
     .footer-list {
         display: flex;
         flex-direction: row;
@@ -391,16 +587,89 @@ footer {
 
     }
 
-    /*WEBSHOP*/
-    .galleri {
-        margin: 20px 60px 20px 60px;
+
+
+
+    /* Laptop */
+    @media (min-width: 1024px) {
+
+        /*header*/
+        header {
+            position: fixed;
+        }
+
+        .headlogo {
+            display: none;
+        }
+
+        .indkob {
+            max-width: 60px;
+            min-width: 60px;
+            left: 92%;
+            top: 22px;
+        }
+
+        label {
+            display: none;
+        }
+
+        .comlogo {
+            display: inline;
+            min-width: 150px;
+            max-width: 200px;
+            margin-top: 9px;
+            margin-left: 2%;
+            display: inline-block;
+            min-height: 30px;
+        }
+
+        .commenu {
+            display: inline;
+            list-style: none;
+            white-space: nowrap;
+
+
+        }
+
+        .commenu a {
+
+            font-size: 25px;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: none;
+            margin-top: -6px;
+            padding-left: 80px;
+            color: #4C4044;
+            float: left;
+            position: ab;
+            top: -26px;
+            left: 22%
+        }
+
+        .headlogo {
+            display: none;
+        }
+
+
+
+
+        /*WEBSHOP*/
+        .galleri {
+            margin: 20px 60px 20px 60px;
+        }
     }
-}
 
-/* produktstørrelse*/
-
-.produkt {
-    width: 31.6%;
-}
+    /* produktstørrelse*/
+    .produkt {
+        width: 31.6%;
+    }
 
 }
+
+@media (min-width: 1440px) {
+    .commenu a {
+        left: 32%;
+    }
+
+}
+
+
