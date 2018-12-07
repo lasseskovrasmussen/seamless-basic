@@ -99,22 +99,13 @@ header {
     box-shadow: 0px 10px 6px #E8E8E8;
     width: 100%;
     background-color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
     position: fixed;
     top: 0;
-
-=======
-=======
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
     position:fixed;
     top:0;
     z-index: 1;
   
-<<<<<<< HEAD
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
-=======
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
+
 }
 
 .comlogo {
@@ -252,8 +243,7 @@ footer {
     display: block;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .filter-content a:hover {
     background-color: #ddd;
 }
@@ -261,18 +251,16 @@ footer {
 .filterknapper:hover .filter-content {
     display: block;
 }
-=======
-.filter-content a:hover {background-color: #ddd;}
 
-.filterknapper:hover .filter-content {display: block;}
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
-
-=======
 .filter-content a:hover {background-color: #ddd;}
 
 .filterknapper:hover .filter-content {display: block;}
 
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
+.filter-content a:hover {background-color: #ddd;}
+
+.filterknapper:hover .filter-content {display: block;}
+
+
 .filterknapper:hover .filterdrop {background-color: #3e8e41;}
 
 /* Hele galleriet - billeder af tøj og beskrivelser) */
@@ -314,10 +302,6 @@ footer {
     color: white;
     width: 70%;
     font-size: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -327,22 +311,12 @@ footer {
 
 .fed {
 
-
-
     font-weight: font-weight: bold;
 }
 
 .breaking {
     margin: 0;
     padding-top: 4px;
-
-    =======padding: 5px;
-=======
-    padding: 5px;
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
-=======
-    padding: 5px;
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
 }
 /* produktside styling */
 
@@ -450,16 +424,12 @@ font-weight: 100;
 }
 
 /* populære produkter (bund af produktside)*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
+
 .produkter_bund{
     position: relative;
     top: -150px;
 }
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
+
 
 .overskrift_bund{
     font-family: 'Abril Fatface', cursive;
@@ -533,18 +503,12 @@ font-weight: 100;
         display: inline;
         left:2%
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-    .footer-list {
-=======
-    
+
+
+
      .footer-list {
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
-=======
-    
-     .footer-list {
->>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
+
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -625,7 +589,7 @@ font-weight: 100;
         padding-left: 80px;
         color: #4C4044;
         float: left;
-        position: ab;
+       
         top: -26px;
         left:22%
         
@@ -657,13 +621,10 @@ font-weight: 100;
     .commenu a{
         left:32%;
     }
-<<<<<<< HEAD
 
-
-=======
     
     
->>>>>>> 20b2daad5f8db10499bd53a6f2417f19d46cf19d
+
 }
 
 
