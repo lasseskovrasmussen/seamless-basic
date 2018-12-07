@@ -100,15 +100,8 @@ header {
     box-shadow: 0px 10px 6px #E8E8E8;
     width: 100%;
     background-color: white;
-
-    position:fixed;
-    top:0;
-    z-index: 1;
-  
-
     position: fixed;
     top: 0;
-
 
 }
 
@@ -152,14 +145,27 @@ label {
     max-width: 50px;
 }
 
-/*WEBSHOP */
-/* Filtrering af tøjet*/
-.filtrering {
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #768281;
+    color: white;
     width: 100%;
-    margin: 10px 25px 10px 20px;
+    bottom: 0;
+    text-align: center;
+    display: block;
 }
 
 /* punkterne i footeren */
+
 .footer-list {
     list-style-type: none;
 }
@@ -213,7 +219,6 @@ label {
     margin: 10px 20px 10px 20px;
     color: #4C4044;
     text-decoration: underline;
-    position:relative;
 }
 
 .filter-knapper {
@@ -221,44 +226,21 @@ label {
     display: inline-block;
 }
 
-.filter-content, .filter-content1, .filter-content2 {
+.filter-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.filter-content {
-    margin-top: 50px;
-}
-
-.filter-content1 {
-    margin-top: 50px;
-    margin-left: 140px;
-}
-
-.filter-content2 {
-    margin-top: 50px;
-    margin-left: 280px;
-}
-
-.filter-content a, .filter-content1 a, .filter-content2 a {
+.filter-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: center;
 }
-
-
-
-.filterknapper:hover .filter-content {display: block;}
-.filterknapper:hover .filter-content1 {display: block;}
-.filterknapper:hover .filter-content2 {display: block;}
-
-.filterknapper:hover .filterdrop {background-color: #fff;}
 
 .filter-content a:hover {
     background-color: #ddd;
@@ -281,7 +263,6 @@ label {
 /* wrapper om billede og produktinformationen */
 
 .produkt {
-    position: relative;
     float: left;
     margin: 10px;
     width: 45%;
@@ -310,64 +291,10 @@ label {
 .kurv-knap {
     background-color: #4C4044;
     color: white;
-    width: 80%;
-    font-size: 18px;
-    padding: 5px;
-    margin-bottom: 25px;
-}
-
-/* footer */
-
-footer {
-    font-family: 'Raleway', sans-serif;
-    background-color: #768281;
-    color: white;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    display: block;
-}
-
-/* punkterne i footeren */
-
-.footer-list {
-    list-style-type: none;
-}
-
-/* logo i footer */
-
-.footer-logo {
-    width: 20%;
-}
-
-/* kontaktinfo i footer */
-
-.kontakt-footer {
-    font-size: 30px;
-    margin: 5px 0 5px 0;
-}
-
-/* faq infoen i footer */
-.footer-info {
-    color: white;
-    text-decoration: none;
-}
-
-/* faq overksrift footer */
-
-.faq {
-    font-size: 30px;
-    margin-bottom: -30px;
-}
-
-/* instagram link */
-
-.instagram {
-    width: 10%;
-    float: right;
-    margin: 20px;
     width: 70%;
     font-size: 20px;
+
+
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -376,13 +303,17 @@ footer {
 }
 
 .fed {
+
+
+
     font-weight: font-weight: bold;
 }
 
 .breaking {
     margin: 0;
     padding-top: 4px;
-padding: 5px;
+
+    =======padding: 5px;
 }
 /* produktside styling */
 
@@ -491,12 +422,6 @@ font-weight: 100;
 
 /* populære produkter (bund af produktside)*/
 
-.produkter_bund{
-    position: relative;
-    top: -150px;
-}
-
-
 .overskrift_bund{
     font-family: 'Abril Fatface', cursive;
     font-weight: normal;
@@ -504,13 +429,14 @@ font-weight: 100;
     color: #4C4044;
 }
 .streg_overskrift{
-    position: absolute;
     background-color: #768281;
     padding: 1px 1px 2.5px 1px;
     margin: 0;
     width: 37%;
+    position: absolute;
     right: 5px;
-    top: 21px;
+    top: 153%;
+    
 }
 
 
@@ -569,10 +495,6 @@ font-weight: 100;
         left: 2%
     }
 
-
-
-
-    /*Footer */
     .footer-list {
         display: flex;
         flex-direction: row;
@@ -580,7 +502,6 @@ font-weight: 100;
         justify-content: space-between;
         margin: 5px;
     }
-    
     .footer-logo {
         width: 7%;
         margin-right: 0;
