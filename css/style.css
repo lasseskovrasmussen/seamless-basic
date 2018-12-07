@@ -181,7 +181,6 @@ label {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-top: 50px;
 }
 
 .filter-content a, .filter-content1 a, .filter-content2 a {
@@ -190,9 +189,7 @@ label {
     text-decoration: none;
     display: block;
 }
-.filter-content1 a {
-    margin-left: 700px;
-}
+
 
 .filterknapper:hover .filter-content {
     display: block;
