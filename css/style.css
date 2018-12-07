@@ -418,7 +418,7 @@ footer {
         float: left;
         position: ab;
         top: -26px;
-        left:21%
+        left:22%
         
         
     }
@@ -446,7 +446,7 @@ footer {
 
 @media (min-width: 1440px) {
     .commenu a{
-        left:29%;
+        left:32%;
     }
     
     
