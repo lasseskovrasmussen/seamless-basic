@@ -2,12 +2,9 @@
 FONTE
 
 font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif; */
 
-font-family: 'Raleway', sans-serif;*/
-
-font-family: 'Raleway',
-sans-serif;
-*/ html,
+html,
 body {
     margin: 0;
 
@@ -41,6 +38,8 @@ h3{
     margin: 0;
     padding-top: 4px;
 }
+
+
 
 
 .overlay {
@@ -100,9 +99,16 @@ header {
     box-shadow: 0px 10px 6px #E8E8E8;
     width: 100%;
     background-color: white;
+<<<<<<< HEAD
     position: fixed;
     top: 0;
 
+=======
+    position:fixed;
+    top:0;
+    z-index: 1;
+  
+>>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
 }
 
 .comlogo {
@@ -206,9 +212,7 @@ footer {
 }
 
 /*WEBSHOP */
-
 /* Filtrering af tøjet*/
-
 .filterdrop {
     background-color: #ffff;
     color: white;
@@ -231,7 +235,7 @@ footer {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -242,6 +246,7 @@ footer {
     display: block;
 }
 
+<<<<<<< HEAD
 .filter-content a:hover {
     background-color: #ddd;
 }
@@ -249,10 +254,13 @@ footer {
 .filterknapper:hover .filter-content {
     display: block;
 }
+=======
+.filter-content a:hover {background-color: #ddd;}
 
-.filterknapper:hover .filterdrop {
-    background-color: #3e8e41;
-}
+.filterknapper:hover .filter-content {display: block;}
+>>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
+
+.filterknapper:hover .filterdrop {background-color: #3e8e41;}
 
 /* Hele galleriet - billeder af tøj og beskrivelser) */
 
@@ -293,6 +301,7 @@ footer {
     color: white;
     width: 70%;
     font-size: 20px;
+<<<<<<< HEAD
 
 
     font-size: 14px;
@@ -314,6 +323,9 @@ footer {
     padding-top: 4px;
 
     =======padding: 5px;
+=======
+    padding: 5px;
+>>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
 }
 /* produktside styling */
 
@@ -421,6 +433,13 @@ font-weight: 100;
 }
 
 /* populære produkter (bund af produktside)*/
+<<<<<<< HEAD
+=======
+.produkter_bund{
+    position: relative;
+    top: -150px;
+}
+>>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
 
 .overskrift_bund{
     font-family: 'Abril Fatface', cursive;
@@ -442,9 +461,9 @@ font-weight: 100;
 
 /*tablet*/
 
-@media (min-width: 767px) {
-
-    header {
+@media (min-width: 767px)  {
+  
+  header {
         position: fixed;
     }
 
@@ -464,9 +483,9 @@ font-weight: 100;
     }
 
     .comlogo {
-
+        
         display: none;
-
+       
     }
 
     .commenu {
@@ -492,10 +511,15 @@ font-weight: 100;
 
     .headlogo {
         display: inline;
-        left: 2%
+        left:2%
     }
+<<<<<<< HEAD
 
     .footer-list {
+=======
+    
+     .footer-list {
+>>>>>>> parent of 6250cd0... Merge branch 'master' of https://github.com/lasseskovrasmussen/seamless-basic
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -524,86 +548,97 @@ font-weight: 100;
 
 
 
-    /* Laptop */
-    @media (min-width: 1024px) {
+/* Laptop */
 
-        /*header*/
-        header {
-            position: fixed;
-        }
+@media (min-width: 1024px) {
 
-        .headlogo {
-            display: none;
-        }
+    /*header*/
 
-        .indkob {
-            max-width: 60px;
-            min-width: 60px;
-            left: 92%;
-            top: 22px;
-        }
-
-        label {
-            display: none;
-        }
-
-        .comlogo {
-            display: inline;
-            min-width: 150px;
-            max-width: 200px;
-            margin-top: 9px;
-            margin-left: 2%;
-            display: inline-block;
-            min-height: 30px;
-        }
-
-        .commenu {
-            display: inline;
-            list-style: none;
-            white-space: nowrap;
-
-
-        }
-
-        .commenu a {
-
-            font-size: 25px;
-            font-family: 'Raleway', sans-serif;
-            text-decoration: none;
-            margin-top: -6px;
-            padding-left: 80px;
-            color: #4C4044;
-            float: left;
-            position: ab;
-            top: -26px;
-            left: 22%
-        }
-
-        .headlogo {
-            display: none;
-        }
-
-
-
-
-        /*WEBSHOP*/
-        .galleri {
-            margin: 20px 60px 20px 60px;
-        }
+    header {
+        position: fixed;
     }
 
-    /* produktstørrelse*/
-    .produkt {
-        width: 31.6%;
+    .headlogo {
+        display: none;
     }
+
+    .indkob {
+        max-width: 60px;
+        min-width: 60px;
+        left: 92%;
+        top: 22px;
+    }
+
+    label {
+        display: none;
+    }
+
+    .comlogo {
+        display: inline;
+        min-width: 150px;
+        max-width: 200px;
+        margin-top: 9px;
+        margin-left: 2%;
+        display: inline-block;
+        min-height: 30px;
+    }
+
+    .commenu {
+        display: inline;
+        list-style: none;
+        white-space: nowrap;
+        
+
+    }
+
+    .commenu a {
+
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        margin-top: -6px;
+        padding-left: 80px;
+        color: #4C4044;
+        float: left;
+        position: ab;
+        top: -26px;
+        left:22%
+        
+        
+    }
+
+    .headlogo {
+        display: none;
+    }
+
+
+
+   
+    /*WEBSHOP*/
+    .galleri {
+        margin: 20px 60px 20px 60px;
+    }
+}
+
+/* produktstørrelse*/
+
+.produkt {
+    width: 31.6%;
+}
 
 }
 
 @media (min-width: 1440px) {
-    .commenu a {
-        left: 32%;
+    .commenu a{
+        left:32%;
     }
+<<<<<<< HEAD
 
+
+=======
+    
+    
+>>>>>>> 20b2daad5f8db10499bd53a6f2417f19d46cf19d
 }
 
 
