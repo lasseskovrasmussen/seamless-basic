@@ -90,12 +90,12 @@ header {
     width: 100%;
 }
 
-.comlogo{
-    display:none;
+.comlogo {
+    display: none;
 }
 
-.commenu{
-    display:none;
+.commenu {
+    display: none;
 }
 
 
@@ -106,30 +106,30 @@ label {
     color: #4C4044;
     font-size: 36px;
     position: absolute;
-  
+
 
 }
 
 
 /*logo i midten af header*/
 
-.headlogo{
+.headlogo {
     min-width: 33px;
-    max-width:33px;
+    max-width: 33px;
     position: absolute;
-    left:45%;
-    top:32px;
+    left: 45%;
+    top: 32px;
 
 }
 
-.indkob{
-    width:10%;
+.indkob {
+    width: 10%;
     position: absolute;
-    left:83%;
+    left: 83%;
     min-width: 50px;
-    max-width:50px;
+    max-width: 50px;
 }
-        
+
 
 
 
@@ -138,9 +138,6 @@ label {
 
 
 /* footer */
-
-
-
 
 footer {
     font-family: 'Raleway', sans-serif;
@@ -195,7 +192,9 @@ footer {
 }
 
 /*WEBSHOP */
+
 /* Hele galleriet - billeder af tøj og beskrivelser) */
+
 .galleri {
     margin: 10px 20px 10px 20px;
 }
@@ -242,64 +241,55 @@ footer {
 @media (min-width: 768px) {
 
     /*header*/
+    header {
+        position: fixed;
+    }
 
-    header{
-        position:fixed;
-    }
-    
-    .headlogo{
+    .headlogo {
         display: none;
     }
-    
-    .indkob{
-        max-width:60px;
-        min-width:60px;
-        left:95%;
-        top:22px;
-       
+
+    .indkob {
+        max-width: 60px;
+        min-width: 60px;
+        left: 95%;
+        top: 22px;
     }
-    
-    label{
+
+    label {
         display: none;
     }
-    
-    .comlogo{
+
+    .comlogo {
         display: inline;
         min-width: 150px;
         max-width: 250px;
-        margin-top:8px;
-        margin-left:2%;
+        margin-top: 8px;
+        margin-left: 2%;
         display: inline-block;
         min-height: 30px;
-       
-        
     }
     
-    
-    
-    .commenu{
+    .commenu {
         display: inline;
         list-style: none;
         white-space: nowrap;
 
     }
-    
-  
-   .commenu a{
-          
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    margin-top:-6px;
-    padding-left: 80px;
-    color: #4C4044;
-    float:left;
-    position:relative;
-    top: -30px;   
-    left:32%      
-    }
 
-    
+    .commenu a {
+
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        margin-top: -6px;
+        padding-left: 80px;
+        color: #4C4044;
+        float: left;
+        position: relative;
+        top: -30px;
+        left: 32%
+    }
 
     .headlogo {
         display: none;
@@ -333,14 +323,17 @@ footer {
         margin-top: 50px;
 
     }
-    
+
     /*WEBSHOP*/
     .galleri {
-    margin: 20px 60px 20px 60px;
+        margin: 20px 60px 20px 60px;
+    }
 }
-    }
-    /* produktstørrelse*/
-    .produkt {
-        width: 31.6%;
-    }
+
+/* produktstørrelse*/
+
+.produkt {
+    width: 31.6%;
+}
+
 }
