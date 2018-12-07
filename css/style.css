@@ -32,6 +32,8 @@ body {
 }
 
 
+
+
 .overlay {
     height: 100%;
     width: 0;
@@ -89,8 +91,9 @@ header {
     box-shadow: 0px 10px 6px #E8E8E8;
     width: 100%;
     background-color: white;
-    position:sticky; 
+    position:fixed;
     top:0;
+  
 }
 
 .comlogo {
@@ -238,14 +241,11 @@ footer {
     padding: 5px;
 }
 
+/*tablet*/
 
-/* Laptop */
-
-@media (min-width: 768px) {
-
-    /*header*/
-
-    header {
+@media (min-width: 767px)  {
+  
+  header {
         position: fixed;
     }
 
@@ -256,7 +256,7 @@ footer {
     .indkob {
         max-width: 60px;
         min-width: 60px;
-        left: 95%;
+        left: 89%;
         top: 22px;
     }
 
@@ -265,13 +265,9 @@ footer {
     }
 
     .comlogo {
-        display: inline;
-        min-width: 150px;
-        max-width: 250px;
-        margin-top: 8px;
-        margin-left: 2%;
-        display: inline-block;
-        min-height: 30px;
+        
+        display: none;
+       
     }
 
     .commenu {
@@ -283,7 +279,7 @@ footer {
 
     .commenu a {
 
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
         margin-top: -6px;
@@ -291,18 +287,16 @@ footer {
         color: #4C4044;
         float: left;
         position: relative;
-        top: -30px;
-        left: 32%
+        top: ;
+        left: 14%
     }
 
     .headlogo {
-        display: none;
+        display: inline;
+        left:2%
     }
-
-
-
-    /*Footer */
-    .footer-list {
+    
+     .footer-list {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -328,6 +322,75 @@ footer {
 
     }
 
+
+
+
+/* Laptop */
+
+@media (min-width: 1024px) {
+
+    /*header*/
+
+    header {
+        position: fixed;
+    }
+
+    .headlogo {
+        display: none;
+    }
+
+    .indkob {
+        max-width: 60px;
+        min-width: 60px;
+        left: 92%;
+        top: 22px;
+    }
+
+    label {
+        display: none;
+    }
+
+    .comlogo {
+        display: inline;
+        min-width: 150px;
+        max-width: 200px;
+        margin-top: 9px;
+        margin-left: 2%;
+        display: inline-block;
+        min-height: 30px;
+    }
+
+    .commenu {
+        display: inline;
+        list-style: none;
+        white-space: nowrap;
+        
+
+    }
+
+    .commenu a {
+
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        margin-top: -6px;
+        padding-left: 80px;
+        color: #4C4044;
+        float: left;
+        position: ab;
+        top: -26px;
+        left:21%
+        
+        
+    }
+
+    .headlogo {
+        display: none;
+    }
+
+
+
+   
     /*WEBSHOP*/
     .galleri {
         margin: 20px 60px 20px 60px;
@@ -340,4 +403,12 @@ footer {
     width: 31.6%;
 }
 
+}
+
+@media (min-width: 1440px) {
+    .commenu a{
+        left:29%;
+    }
+    
+    
 }
