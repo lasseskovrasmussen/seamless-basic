@@ -13,6 +13,14 @@ body {
 
 }
 
+h1,
+p,
+h2,
+h3{
+ font-family: 'Raleway', sans-serif;
+    
+}
+
 .fragt {
     width: 100%;
     height: 25px;
@@ -151,7 +159,6 @@ footer {
     background-color: #768281;
     color: white;
     width: 100%;
-    position: absolute;
     bottom: 0;
     text-align: center;
     display: block;
@@ -308,6 +315,130 @@ footer {
 
     =======padding: 5px;
 }
+/* produktside styling */
+
+/* breadcrumbs */
+
+ul.breadcrumb {
+    margin: 30px 0px 0px -15px;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+    color: #4C4044;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #4C4044;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* slideshow */ 
+
+
+
+.fade{
+    width: 80%;
+    margin: 10%;
+}
+
+.fade img{
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color:#768281 !important;
+}
+
+/*produkt information */
+.info h1 {
+text-align: center;
+color: #4C4044;
+font-size: 40px;
+margin-bottom: 0;
+}
+
+.info h2 {
+text-align: center;
+color: #4C4044;
+font-size: 12px;
+font-weight: normal;
+
+
+}
+.info h3 {
+text-align: center;
+color: #4C4044;
+font-size: 16px;
+font-weight: 100;
+}
+
+.fa{
+    margin-right: 15px;
+}
+
+
+.info_tekst p{
+    font-size: 16px;
+    color: #4C4044;
+    margin: 10px 0px 10px 10%;
+}
+
+.container {
+    display: flex;
+}
+
+/* læg i kurv & fragt */
+.kurv_knap{
+    background-color: #4C4044;
+    padding: 10px 40px 10px 40px;
+    margin: 0% 30% 0% 30%;
+    color: white;
+    font-family:  'Raleway', sans-serif;
+    font font-size: 16px;
+    line-height: 16;
+    position: relative;
+    top: -90px;
+}
+
+.fri_fragt img{
+    width: 40px;
+    height:30px;
+    margin-right: 10px;
+}
+
+.fri_fragt {
+    display: flex;
+    position: relative;
+    top: -190px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* populære produkter (bund af produktside)*/
+
+.overskrift_bund{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    margin-left: 15px;
+    color: #4C4044;
+}
+.streg_overskrift{
+    background-color: #768281;
+    padding: 1px 1px 2.5px 1px;
+    margin: 0;
+    width: 37%;
+    position: absolute;
+    right: 5px;
+    top: 153%;
+    
+}
+
 
 /*tablet*/
 
@@ -473,6 +604,6 @@ footer {
         left: 32%;
     }
 
-
-    > > > > > > > 20b2daad5f8db10499bd53a6f2417f19d46cf19d
 }
+
+
