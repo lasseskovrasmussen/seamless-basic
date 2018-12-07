@@ -148,70 +148,14 @@ label {
     max-width: 50px;
 }
 
-
-
-
-
-
-
-
-/* footer */
-
-footer {
-    font-family: 'Raleway', sans-serif;
-    background-color: #768281;
-    color: white;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    display: block;
-}
-
-/* punkterne i footeren */
-
-.footer-list {
-    list-style-type: none;
-}
-
-/* logo i footer */
-
-.footer-logo {
-    width: 20%;
-}
-
-/* kontaktinfo i footer */
-
-.kontakt-footer {
-    font-size: 30px;
-    margin: 5px 0 5px 0;
-}
-
-/* faq infoen i footer */
-
-.footer-info {
-    color: white;
-    text-decoration: none;
-}
-
-/* faq overksrift footer */
-
-.faq {
-    font-size: 30px;
-    margin-bottom: -30px;
-}
-
-/* instagram link */
-
-.instagram {
-    width: 10%;
-    float: right;
-    margin: 20px;
-}
-
 /*WEBSHOP */
 /* Filtrering af tøjet*/
 .filtrering {
-    
+    position: fixed;
+    width: 100%;
+    margin-top: -80px;
+    padding-left: 150px;
+    background-color: white;
 }
 .filterdrop {
     background-color: #ffff;
@@ -230,46 +174,35 @@ footer {
     display: inline-block;
 }
 
-.filter-content {
+.filter-content, .filter-content1, .filter-content2  {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-top: 50px;
 }
 
-.filter-content a {
-    color: black;
+.filter-content a, .filter-content1 a, .filter-content2 a {
+    color: #4C4044;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
-
-.filter-content a:hover {
-    background-color: #ddd;
+.filter-content1 a {
+    margin-left: 700px;
 }
 
 .filterknapper:hover .filter-content {
     display: block;
 }
 
-.filter-content a:hover {background-color: #ddd;}
-
-.filterknapper:hover .filter-content {display: block;}
-
-.filter-content a:hover {background-color: #ddd;}
-
-.filterknapper:hover .filter-content {display: block;}
-
-
-.filterknapper:hover .filterdrop {background-color: #3e8e41;}
 
 /* Hele galleriet - billeder af tøj og beskrivelser) */
 
 .galleri {
-    margin: 10px 20px 10px 20px;
+    margin: 160px 20px 10px 20px;
 }
 
 /* wrapper om billede og produktinformationen */
@@ -277,7 +210,7 @@ footer {
 .produkt {
     float: left;
     margin: 10px;
-    width: 45%;
+    width: 43%;
 }
 
 .produkt .toj-galleri {
@@ -286,7 +219,7 @@ footer {
 }
 
 .toj-galleri:hover {
-    border: 2px solid #ffff;
+    border: 1px solid #ffff;
 }
 
 /* Wrapper om produktinformation */
@@ -451,6 +384,58 @@ font-weight: 100;
     
 }
 
+/* footer */
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #768281;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    display: block;
+}
+
+/* punkterne i footeren */
+
+.footer-list {
+    list-style-type: none;
+}
+
+/* logo i footer */
+
+.footer-logo {
+    width: 20%;
+}
+
+/* kontaktinfo i footer */
+
+.kontakt-footer {
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+
+/* faq infoen i footer */
+
+.footer-info {
+    color: white;
+    text-decoration: none;
+}
+
+/* faq overksrift footer */
+
+.faq {
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+/* instagram link */
+
+.instagram {
+    width: 10%;
+    float: right;
+    margin: 20px;
+}
 
 /*tablet*/
 
