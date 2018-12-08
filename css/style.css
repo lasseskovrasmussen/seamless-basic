@@ -212,11 +212,9 @@ label {
 /*WEBSHOP */
 /* Filtrering af tøjet*/
 .filtrering {
-    position: fixed;
     width: 100%;
-    margin-top: -80px;
-    padding-left: 150px;
     background-color: white;
+    padding: 0 15% 0 15%;
 }
 .filterdrop {
     background-color: #ffff;
@@ -225,7 +223,6 @@ label {
     font-size: 16px;
     border: none;
     float: left;
-    margin: 10px 20px 10px 20px;
     color: #4C4044;
     text-decoration: underline;
 }
@@ -242,8 +239,15 @@ label {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-top: 45px;
 }
 
+.filter-content1 {
+    margin-left: 13%;
+}
+.filter-content2 {
+    margin-left: 30%;
+}
 .filter-content a, .filter-content1 a, .filter-content2 a {
     color: #4C4044;
     padding: 12px 16px;
@@ -252,15 +256,14 @@ label {
 }
 
 
-.filterknapper:hover .filter-content {
+.filterknapper:hover .filter-content, .filterknapper:hover .filter-content1, .filterknapper:hover .filter-content2  {
     display: block;
 }
-
 
 /* Hele galleriet - billeder af tøj og beskrivelser) */
 
 .galleri {
-    margin: 160px 20px 10px 20px;
+    margin: 80px 20px 10px 20px;
 }
 
 /* wrapper om billede og produktinformationen */
@@ -268,7 +271,7 @@ label {
 .produkt {
     float: left;
     margin: 10px;
-    width: 43%;
+    width: 40%;
 }
 
 .produkt .toj-galleri {
@@ -277,7 +280,7 @@ label {
 }
 
 .toj-galleri:hover {
-    border: 1px solid #ffff;
+    transform: scale(1.05); 
 }
 
 /* Wrapper om produktinformation */
@@ -287,24 +290,22 @@ label {
     text-align: center;
 }
 
-/* tøj type beskrivelse under billedet */
-
 /* læg i kurv knap */
 
 .kurv-knap {
     background-color: #4C4044;
     color: white;
     width: 70%;
-    font-size: 20px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 8px;
 
 }
 
 .fed {
-
     font-weight: font-weight: bold;
 }
 
@@ -555,9 +556,23 @@ footer {
         left:2%
     }
 
+/* webshop */
+    .filtrering {
+        padding-left: 30%;
+    }
 
+.galleri {
+    margin: 80px 60px 10px 60px;
+}
 
+/* wrapper om billede og produktinformationen */
 
+.produkt {
+    width: 30.2%;
+}
+
+    
+/* footer */
      .footer-list {
 
         display: flex;
@@ -585,7 +600,7 @@ footer {
 
     }
 
-
+}
 
 
 /* Laptop */
@@ -649,30 +664,52 @@ footer {
     .headlogo {
         display: none;
     }
-
-
-
    
     /*WEBSHOP*/
-    .galleri {
-        margin: 20px 60px 20px 60px;
+    /* webshop */
+    .filterdrop {
+        font-size: 20px;
     }
+    .filtrering {
+        padding-left: 40%;
+    }
+
+.galleri {
+    margin: 80px 120px 10px 120px;
+}
+
+/* wrapper om billede og produktinformationen */
+
+.produkt {
+    width: 28.2%;
+    margin: 20px;
+}
 }
 
 /* produktstørrelse*/
 
-.produkt {
-    width: 31.6%;
-}
-
-}
 
 @media (min-width: 1440px) {
     .commenu a{
         left:32%;
     }
 
-    
+      /* webshop */
+    .filtrering {
+        width: 100%;
+        padding-left: 50%;
+    }
+
+.galleri {
+
+}
+
+/* wrapper om billede og produktinformationen */
+
+.produkt {
+    width: 30%;
+    margin: 20px;
+}  
     
 
 }
