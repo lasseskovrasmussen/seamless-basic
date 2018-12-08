@@ -52,6 +52,7 @@ h3{
     background-color: #768281;
     overflow-x: hidden;
     transition: 0.5s;
+    z-index: 2;
 }
 
 /* overlay indhold */
@@ -140,12 +141,20 @@ label {
 
 }
 
+/*indkøbskurv*/
+
 .indkob {
     width: 10%;
     position: absolute;
     left: 83%;
     min-width: 50px;
     max-width: 50px;
+}
+
+/*billede på forside - Hero*/
+.hero img{
+    width: 100%;
+    margin-top: 80px;
 }
 
 /*WEBSHOP */
