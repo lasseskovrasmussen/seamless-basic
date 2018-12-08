@@ -10,13 +10,15 @@ body {
 
 }
 
-h1,
+
 p,
 h2,
 h3{
  font-family: 'Raleway', sans-serif;
     
 }
+
+
 
 .fragt {
     width: 100%;
@@ -151,11 +153,61 @@ label {
     max-width: 50px;
 }
 
-/*billede på forside - Hero*/
+/*billede og tekst på forside - Hero*/
+
+.hero{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-top:80px;
+    
+    
+}
+
+
 .hero img{
     width: 100%;
-    margin-top: 80px;
+    
 }
+
+.hero button{
+    position: absolute;
+    border:none;
+    background-color: #FFFFFF;
+    color:#5C5255;
+    font-family: 'Abril Fatface';
+    font-size: 18px;
+    text-decoration: underline;
+    width:120px;
+    height:40px;
+    top:85%;
+    left:55%
+}
+
+.tekst{
+    position:absolute;
+    top:47%;
+    left:14%;
+    color:white;
+}
+
+.tekst h1{
+    margin-bottom: 0;
+    width:100%;
+}
+
+.tekst p{
+   margin-top:4px;
+    font-size: 10px;
+    width:94%
+}
+
+
+
+
+
+
+
 
 /*WEBSHOP */
 /* Filtrering af tøjet*/
