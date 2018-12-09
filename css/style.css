@@ -183,13 +183,13 @@ label {
     background-color: #FFFFFF;
     color:#5C5255;
     font-family: 'Abril Fatface';
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: underline;
     width:120px;
     height:40px;
     top:85%;
     left:55%;
-    white-space: nowrap;
+    
 }
 
 .tekst{
