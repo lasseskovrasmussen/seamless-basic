@@ -188,7 +188,8 @@ label {
     width:120px;
     height:40px;
     top:85%;
-    left:55%
+    left:55%;
+    white-space: nowrap;x
 }
 
 .tekst{
