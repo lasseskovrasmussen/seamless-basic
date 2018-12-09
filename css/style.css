@@ -214,7 +214,58 @@ label {
 }
 
 
+/* Teasers på forside*/
 
+.teaser{
+    position:relative;
+    width:100%;
+    margin-top: 12px;
+}
+
+/*hvad er seamless*/
+
+.seamless img  {
+    position: relative;
+    width:90%;
+    margin-left:5%
+     
+}
+
+.kvalitet img{
+    position: relative;
+    width:90%;
+    margin-left:5%;
+    
+}
+
+
+.vaskeguide img{
+    position: relative;
+    width:90%;
+    margin-left:5%;
+}
+
+.emballage img{
+    position: relative;
+    width:90%;
+    margin-left:5%;
+}
+
+.linktekst{
+text-decoration: none;
+font-family: 'Abril Fatface';
+font-size: 23px;
+font-weight: 100;
+white-space: nowrap;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+letter-spacing: 0.5px;
+
+
+}
 
 
 
