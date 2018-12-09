@@ -628,13 +628,23 @@ footer {
         display: none;
     }
     
-    .herocom{
-        display: inline-block;
+    .hero img{
+        width:90%;
+        margin-left: 5%;
+        
+    }
+    
+    .herocom {
+       display: inline;
+        
+    
+        
+        
     }
     
     .tekst{
     left:43%;
-    top:55%
+    top:52%
 }
 
 .tekst h1{
@@ -646,11 +656,14 @@ footer {
 .tekst p{
     font-size: 12px;
     width:80%;
+    
 }
     
     .hero button{
-        left:72%;
-        top: 89%    
+        left:74.5%;
+        top: 89%; 
+        height:30px;
+        width:100px;
     
     }
 
@@ -772,11 +785,18 @@ footer {
     }
     
     .tekst p{
-        font-size:  15px;
+        font-size:  16px;
     }
     
     .herostor{
         display: none;
+    }
+    
+    .hero button{
+        width:120px;
+        height:40px;
+        font-size: 18px;
+        left:76%
     }
     
    
@@ -821,12 +841,20 @@ footer {
         display: inline-block;
     }
     
+    .tekst p{
+        width:65%
+    }
+    
     .tekst h1{
         font-size: 50px;
     }
     
     .tekst p{
         font-size:22px
+    }
+    
+    .hero button{
+        
     }
     
     .tekst {
@@ -838,8 +866,8 @@ footer {
         width: 170px;
         height:60px;
         font-size:28px;
-        top:91%;
-        left:83%
+        top:87%;
+        left:80%
     }
     
     
