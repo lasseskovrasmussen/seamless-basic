@@ -268,6 +268,22 @@ letter-spacing: 0.5px;
 
 }
 
+.teasercom1 {
+    display: none;
+}
+
+.teasercom2 {
+    display: none;
+}
+
+.teasercom3{
+    display: none;
+}
+
+.teasercom4{
+    display: none;
+}
+
 
 
 
@@ -654,7 +670,7 @@ footer {
 }
 
 .tekst p{
-    font-size: 12px;
+    font-size: 14px;
     width:80%;
     
 }
@@ -665,6 +681,91 @@ footer {
         height:30px;
         width:100px;
     
+    }
+    
+    /*teaser på forside*/
+    
+     
+    .teaser{
+        display:none;
+    }
+    
+    .teasercom1{
+        display: inline-block;
+        position: relative;
+        width:50%;
+        margin-left:5%;
+        margin-top:10px;
+        float: left;
+
+    }
+    
+    .teasercom2{
+        display: inline-block;
+        position: relative;
+        width:38%;
+        margin-top: 10px;
+        float: left;
+        margin-left:2%;
+        
+        
+    }
+    
+    .teasercom3{
+        display: inline-block;
+        position: relative;
+        width:38%;
+        margin-left:5%;
+    }
+    
+    .teasercom4{
+        display: inline-block;
+        position:relative;
+        width:50%;
+        margin-left:2%;
+    }
+    
+    
+    .teasercom1:hover{
+        opacity: 0.7;
+    }
+    
+    .teasercom2:hover{
+        opacity: 0.7;
+    }
+    
+     .teasercom3:hover{
+        opacity: 0.7;
+    }
+    
+     .teasercom:hover{
+        opacity: 0.7;
+    }
+
+
+    .seamlesscom img{
+       
+    width:100%;
+    height:184.31px;
+        
+    }
+    
+    .kvalitetcom img{
+
+        width:100%;
+        height:184.31px;
+    }
+    
+    .vaskeguidecom img{
+        width:100%;
+        height:184.31px;
+        margin-top:10px;
+        
+    }
+    
+    .emballagecom img{
+        width:100%;
+        height:184.31px;
     }
 
 
@@ -786,6 +887,7 @@ footer {
     
     .tekst p{
         font-size:  16px;
+       
     }
     
     .herostor{
@@ -796,8 +898,37 @@ footer {
         width:120px;
         height:40px;
         font-size: 18px;
-        left:76%
+        left:77%
     }
+    
+    /*teaser på forsiden*/
+       
+    .linktekst{
+        font-size: 33px;
+    }
+    
+    .seamlesscom img{
+   
+    height:280px;
+        
+    }
+    
+    .kvalitetcom img{
+
+        height:280px;
+    }
+    
+    .vaskeguidecom img{
+        height:280px;
+       
+        
+    }
+    
+    .emballagecom img{
+        
+        height:280px;
+    }
+
     
    
     /*WEBSHOP*/
@@ -869,6 +1000,33 @@ footer {
         top:87%;
         left:80%
     }
+    
+    /*teaser på forside*/
+       .seamlesscom img{
+       
+    
+    height:320px;
+        
+    }
+    
+    .kvalitetcom img{
+
+       
+        height:320px;
+    }
+    
+    .vaskeguidecom img{
+       margin-top:20px;
+        height:320px;
+      
+        
+    }
+    
+    .emballagecom img{
+        margin-top:20px;
+        height:320px;
+    }
+
     
     
   
