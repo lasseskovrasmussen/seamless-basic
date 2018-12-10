@@ -422,7 +422,7 @@ ul.breadcrumb li a {
 .fade{
     width: 80%;
     margin: 10%;
-    margin-top: 2%
+    margin-top: 10%
 }
 
 .fade img{
@@ -850,7 +850,7 @@ font-size: 14px;
     
 .fade{
     width: 400px;
-    margin: 30px;   
+    margin: 30px;
 }
 
 .container_web{
@@ -1114,7 +1114,7 @@ width: 15%;
 }
 
 .info{
-margin: 50px 0px 0px 150px;
+margin: 20px 0px 0px 150px;
 }
 .container_web{
     justify-content: flex-start;
