@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,141 +9,144 @@
     <meta name="description" content="Seamless Basic Webshop - Her finder du hele sortimentet">
     <link rel="icon" type="images" href="images/morktlogo.png">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-<header>
-<!-- Mobil menu -->
-<div id="myNav" class="overlay">
+    <header>
+        <!-- Mobil menu -->
+        <div id="myNav" class="overlay">
 
-    <!-- lukke knap i burgermenu -->
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- lukke knap i burgermenu -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <!-- Menu indhold -->
-    <div class="overlay-content">
+            <!-- Menu indhold -->
+            <div class="overlay-content">
 
-        <a href="index.html">Forside</a>
-        <a href="#">Webshop</a>
-        <a href="#">Hvem er vi?</a>
-        <img class="burgerlogo" src="images/hvidt-logo.png" alt="seamless-basic logo">
+                <a href="index.html">Forside</a>
+                <a href="#">Webshop</a>
+                <a href="#">Hvem er vi?</a>
+                <img class="burgerlogo" src="images/hvidt-logo.png" alt="seamless-basic logo">
 
-    </div>
+            </div>
 
-</div>
-
-
-    <div class="fragt">
-        <p class="breaking" ""><span class="fed">FRI</span> FRAGT &amp; <span class="fed">FRI</span> RETURNERING</p>
-    </div>
-
-    <!-- Åben burger menu med -->
-    <label onclick="openNav()" class="burgermenu"> &#9776;</label>
+        </div>
 
 
-    <img class="headlogo" src="images/morktlogo.png" alt="seamless-basic logo">
-    <img src="images/logomenu.png" alt="seamless-basic logo" class="comlogo">
+        <div class="fragt">
+            <p class="breaking" ""><span class="fed">FRI</span> FRAGT &amp; <span class="fed">FRI</span> RETURNERING</p>
+        </div>
 
-    <ul class="commenu">
-        <li><a href="index.html">Forside</a></li>
-        <li> <a href="webshop.html">Webshop</a></li>
-        <li> <a href="#">Hvem er vi?</a></li>
-    </ul>
+        <!-- Åben burger menu med -->
+        <label onclick="openNav()" class="burgermenu"> &#9776;</label>
 
-    <a href="#"><img src="images/indkobskurv.png" alt="indkøbskurv" class="indkob"></a>
 
-</header>
+        <img class="headlogo" src="images/morktlogo.png" alt="seamless-basic logo">
+        <img src="images/logomenu.png" alt="seamless-basic logo" class="comlogo">
+
+        <ul class="commenu">
+            <li><a href="index.html">Forside</a></li>
+            <li> <a href="webshop.html">Webshop</a></li>
+            <li> <a href="#">Hvem er vi?</a></li>
+        </ul>
+
+        <a href="#"><img src="images/indkobskurv.png" alt="indkøbskurv" class="indkob"></a>
+
+    </header>
 
     <!-- filtrering af tøj -->
     <div class="filtrering">
-    
-   <div class="filterknapper">
-  <button class="filterdrop">Kvalitet</button>
-  <div class="filter-content">
-    <a href="#">Bomuld</a>
-    <a href="#">Merinould</a>
-    <a href="#">Silke</a>
-  </div>
-</div>
-   
-    <div class="filterknapper">
-  <button class="filterdrop">Produkttype</button>
-  <div class="filter-content1">
-    <a href="#">Overdel</a>
-    <a href="#">Underdel</a>
-  </div>
-</div>
 
-<div class="filterknapper">
-  <button class="filterdrop">Farve</button>
-  <div class="filter-content2">
-    <a href="#">Sort</a>
-    <a href="#">Hvid</a>
-    <a href="#">Grå</a>
-    <a href="#">Nude</a>
-    <a href="#">Lyserød</a>
-  </div>
-</div>
-   
+        <div class="filterknapper">
+            <button class="filterdrop">Kvalitet</button>
+            <div class="filter-content">
+                <li id="bomuld">Bomuld</li>
+                <li id="merinould">Merinould</li>
+                <li id="silke">Silke</li>
+            </div>
+        </div>
+
+        <div class="filterknapper">
+            <button class="filterdrop">Produkttype</button>
+            <div class="filter-content1">
+                <li id="overdel">Overdel</li>
+                <li id="underdel">Underdel</li>
+            </div>
+        </div>
+
+        <div class="filterknapper">
+            <button class="filterdrop">Farve</button>
+            <div class="filter-content2">
+                <li id="sort">Sort</li>
+                <li id="hvid">Hvid</li>
+                <li id="gra">Grå</li>
+                <li id="nude">Nude</li>
+                <li id="lyserod">Lyserød</li>
+            </div>
+        </div>
+
     </div>
 
     <!-- Tøjgalleri -->
     <div class="galleri">
-    <div class="produkt">
-        <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
-        <div class="produktbeskrivelse">
-            <h3>Elvira</h3>
-            <p class="type">Seamless long sleeve t-shirt</p>
-            <p class="pris">299 DKK</p>
-            <a href="#" class="kurv-knap">Læg i kurv</a>
-        </div>
-    </div>
-
-    <div class="produkt merinould hvid overdel">
-        <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
-        <div class="produktbeskrivelse">
-            <h3>Elvira</h3>
-            <p class="type">Seamless long sleeve t-shirt</p>
-            <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
-        </div>
-    </div>
-
-    <div class="produkt silke sort underdel">
-        <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
-        <div class="produktbeskrivelse">
-            <h3>Elvira</h3>
-            <p class="type">Seamless long sleeve t-shirt</p>
-            <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+        <div class="produkt overdel sort bomuld">
+            <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+            <div class="produktbeskrivelse">
+                <h3>Elvira</h3>
+                <p class="type">Seamless long sleeve t-shirt</p>
+                <p class="pris">299 DKK</p>
+                <a href="#" class="kurv-knap">Læg i kurv</a>
+            </div>
         </div>
 
-    </div>
-    <div class="produkt bomuld sort overdel">
-        <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
-        <div class="produktbeskrivelse">
-            <h3>Elvira</h3>
-            <p class="type">Seamless long sleeve t-shirt</p>
-            <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+        <div class="produkt merinould hvid overdel">
+            <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+            <div class="produktbeskrivelse">
+                <h3>Elvira</h3>
+                <p class="type">Seamless long sleeve t-shirt</p>
+                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+            </div>
         </div>
-    </div>
 
-    <div class="produkt merinould hvid overdel">
-        <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
-        <div class="produktbeskrivelse">
-            <h3>Elvira</h3>
-            <p class="type">Seamless long sleeve t-shirt</p>
-            <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
-        </div>
-    </div>
+        <div class="produkt silke sort underdel">
+            <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
+            <div class="produktbeskrivelse">
+                <h3>Elvira</h3>
+                <p class="type">Seamless long sleeve t-shirt</p>
+                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+            </div>
 
-    <div class="produkt silke sort underdel">
-        <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
-        <div class="produktbeskrivelse">
-            <h3>Elvira</h3>
-            <p class="type">Seamless long sleeve t-shirt</p>
-            <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+        </div>
+        <div class="produkt bomuld sort overdel">
+            <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+            <div class="produktbeskrivelse">
+                <h3>Elvira</h3>
+                <p class="type">Seamless long sleeve t-shirt</p>
+                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+            </div>
+        </div>
+
+        <div class="produkt merinould hvid overdel">
+            <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+            <div class="produktbeskrivelse">
+                <h3>Elvira</h3>
+                <p class="type">Seamless long sleeve t-shirt</p>
+                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+            </div>
+        </div>
+
+        <div class="produkt silke sort underdel">
+            <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
+            <div class="produktbeskrivelse">
+                <h3>Elvira</h3>
+                <p class="type">Seamless long sleeve t-shirt</p>
+                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+            </div>
         </div>
     </div>
-    </div>
- <!--
+    <!--
   <footer>
         <ul class="footer-list">
             <img src="images/hvidt-logo.png" alt="logo" class="footer-logo">
@@ -166,14 +170,146 @@
 
     </footer>
    -->
-      <script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+        var klik = $("#bomuld");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.merinould').hide();
+                $('.silke').hide();
+                $('.bomuld').hide();
+            }
+            skjul();
+            $('.bomuld').show();
+        });
+
+        var klik = $("#merinould");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.bomuld').hide();
+                $('.silke').hide();
+                $('.merinould').hide();
+            }
+            skjul();
+            $('.merinould').show();
+        });
+
+        var klik = $("#silke");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.merinould').hide();
+                $('.bomuld').hide();
+                $('.silke').hide();
+            }
+            skjul();
+            $('silke').show();
+        });
+
+        var klik = $("#overdel");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.underdel').hide();
+                $('.overdel').hide();
+            }
+            skjul();
+            $('.overdel').show();
+        });
+
+        var klik = $("#underdel");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.overdel').hide();
+                $('.underdel').hide();
+            }
+            skjul();
+            $('.underdel').show();
+        });
+        
+        var klik = $("#sort");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.hvid').hide();
+                $('.gra').hide();
+                $('.nude').hide();
+                $('.lyserod').hide();
+                $('.sort').hide();
+            }
+            skjul();
+            $('.sort').show();
+        });
+        
+              var klik = $("#hvid");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.sort').hide();
+                $('.gra').hide();
+                $('.nude').hide();
+                $('.lyserod').hide();
+                $('.hvid').hide();
+            }
+            skjul();
+            $('.hvid').show();
+        });
+        
+              var klik = $("#gra");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.hvid').hide();
+                $('.sort').hide();
+                $('.nude').hide();
+                $('.lyserod').hide();
+                $('.gra').hide();
+            }
+            skjul();
+            $('.gra').show();
+        });
+        
+                      var klik = $("#nude");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.hvid').hide();
+                $('.sort').hide();
+                $('.gra').hide();
+                $('.lyserod').hide();
+                $('.nude').hide();
+            }
+            skjul();
+            $('.nude').show();
+        });
+        
+                      var klik = $("#lyserod");
+        klik.click(function() {
+
+            let skjul = function() {
+                $('.hvid').hide();
+                $('.sort').hide();
+                $('.nude').hide();
+                $('.gra').hide();
+                $('.lyserod').hide();
+            }
+            skjul();
+            $('.lyserod').show();
+        });
+        
+        
+
+    </script>
 </body>
+
 </html>
