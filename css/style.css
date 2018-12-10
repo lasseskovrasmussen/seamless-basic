@@ -10,12 +10,15 @@ body {
 
 }
 
+h1{
+     font-family: 'Abril Fatface';
+}
 
 p,
 h2,
-h3{
- font-family: 'Raleway', sans-serif;
-    
+h3 {
+    font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -104,11 +107,11 @@ header {
     background-color: white;
     position: fixed;
     top: 0;
-    position:fixed;
-    top:0;
+    position: fixed;
+    top: 0;
     z-index: 1000;
-   
-  
+
+
 
 }
 
@@ -156,114 +159,114 @@ label {
 
 /*billede og tekst på forside - Hero*/
 
-.hero{
+.hero {
     position: relative;
-    width:100%;
-    height: auto;
-    margin-top:80px;
-    
-    
-}
-
-
-
-
-.hero img{
     width: 100%;
-    
+    height: auto;
+    margin-top: 80px;
+
+
+}
+
+
+
+
+.hero img {
+    width: 100%;
+
 }
 
 
 
 
 
-.hero button{
+.hero button {
     position: absolute;
-    border:none;
+    border: none;
     background-color: #FFFFFF;
-    color:#5C5255;
+    color: #5C5255;
     font-family: 'Abril Fatface';
     font-size: 16px;
     text-decoration: underline;
-    width:120px;
-    height:40px;
-    top:85%;
-    left:55%;
-    
+    width: 120px;
+    height: 40px;
+    top: 85%;
+    left: 55%;
+
 }
 
-.tekst{
-    position:absolute;
-    top:47%;
-    left:14%;
-    color:white;
+.tekst {
+    position: absolute;
+    top: 47%;
+    left: 14%;
+    color: white;
 }
 
-.tekst h1{
+.tekst h1 {
     margin-bottom: 0;
-    width:100%;
+    width: 100%;
 }
 
-.tekst p{
-   margin-top:4px;
+.tekst p {
+    margin-top: 4px;
     font-size: 10px;
-    width:94%
+    width: 94%
 }
 
-.herocom, .herostor{
+.herocom,
+.herostor {
     display: none;
 }
 
 
 /* Teasers på forside*/
 
-.teaser{
-    position:relative;
-    width:100%;
+.teaser {
+    position: relative;
+    width: 100%;
     margin-top: 12px;
 }
 
 /*hvad er seamless*/
 
-.seamless img  {
+.seamless img {
     position: relative;
-    width:90%;
-    margin-left:5%
-     
+    width: 90%;
+    margin-left: 5%
 }
 
-.kvalitet img{
+.kvalitet img {
     position: relative;
-    width:90%;
-    margin-left:5%;
-    
+    width: 90%;
+    margin-left: 5%;
+
 }
 
 
-.vaskeguide img{
+.vaskeguide img {
     position: relative;
-    width:90%;
-    margin-left:5%;
+    width: 90%;
+    margin-left: 5%;
 }
 
-.emballage img{
+.emballage img {
     position: relative;
-    width:90%;
-    margin-left:5%;
+    width: 90%;
+    margin-left: 5%;
 }
 
-.linktekst{
-text-decoration: none;
-font-family: 'Abril Fatface';
-font-size: 23px;
-font-weight: 100;
-white-space: nowrap;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color:white;
-letter-spacing: 0.5px;
+.linktekst {
+    text-decoration: none;
+    font-family: 'Abril Fatface';
+    font-size: 23px;
+    font-weight: 100;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 0.5px;
 
 
 }
@@ -276,11 +279,11 @@ letter-spacing: 0.5px;
     display: none;
 }
 
-.teasercom3{
+.teasercom3 {
     display: none;
 }
 
-.teasercom4{
+.teasercom4 {
     display: none;
 }
 
@@ -291,12 +294,15 @@ letter-spacing: 0.5px;
 
 
 /*WEBSHOP */
+
 /* Filtrering af tøjet*/
+
 .filtrering {
     width: 100%;
     background-color: white;
     padding: 0 15% 0 15%;
 }
+
 .filterdrop {
     background-color: #ffff;
     color: white;
@@ -313,12 +319,14 @@ letter-spacing: 0.5px;
     display: inline-block;
 }
 
-.filter-content, .filter-content1, .filter-content2  {
+.filter-content,
+.filter-content1,
+.filter-content2 {
     display: none;
     position: absolute;
     background-color: #fff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-top: 45px;
 }
@@ -326,10 +334,14 @@ letter-spacing: 0.5px;
 .filter-content1 {
     margin-left: 13%;
 }
+
 .filter-content2 {
     margin-left: 30%;
 }
-.filter-content a, .filter-content1 a, .filter-content2 a {
+
+.filter-content a,
+.filter-content1 a,
+.filter-content2 a {
     color: #4C4044;
     padding: 12px 16px;
     text-decoration: none;
@@ -337,7 +349,9 @@ letter-spacing: 0.5px;
 }
 
 
-.filterknapper:hover .filter-content, .filterknapper:hover .filter-content1, .filterknapper:hover .filter-content2  {
+.filterknapper:hover .filter-content,
+.filterknapper:hover .filter-content1,
+.filterknapper:hover .filter-content2 {
     display: block;
 }
 
@@ -361,7 +375,7 @@ letter-spacing: 0.5px;
 }
 
 .toj-galleri:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 /* Wrapper om produktinformation */
@@ -394,9 +408,10 @@ letter-spacing: 0.5px;
     margin: 0;
     padding-top: 4px;
 }
+
 /* produktside styling */
 
-.main_section{
+.main_section {
     margin-top: 100px;
 }
 
@@ -410,64 +425,66 @@ ul.breadcrumb li {
     display: inline;
     font-size: 12px;
 }
-ul.breadcrumb li+li:before {
+
+ul.breadcrumb li + li:before {
     color: #4C4044;
     content: "/\00a0";
 }
+
 ul.breadcrumb li a {
     color: #4C4044;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
 
-/* slideshow */ 
+/* slideshow */
 
-
-
-.fade{
+.fade {
     width: 80%;
     margin: 10%;
     margin-top: 2%
 }
 
-.fade img{
+.fade img {
     width: 100%;
 }
 
 .slick-prev:before,
 .slick-next:before {
-  color:#768281 !important;
+    color: #768281 !important;
 }
 
 /*produkt information */
+
 .info h1 {
-text-align: center;
-color: #4C4044;
-font-size: 40px;
-margin-bottom: 0;
+    text-align: center;
+    color: #4C4044;
+    font-size: 40px;
+    margin-bottom: 0;
 }
 
 .info h2 {
-text-align: center;
-color: #4C4044;
-font-size: 12px;
-font-weight: normal;
+    text-align: center;
+    color: #4C4044;
+    font-size: 12px;
+    font-weight: normal;
 
 
 }
+
 .info h3 {
-text-align: center;
-color: #4C4044;
-font-size: 16px;
-font-weight: 100;
+    text-align: center;
+    color: #4C4044;
+    font-size: 16px;
+    font-weight: 100;
 }
 
-.fa{
+.fa {
     margin-right: 15px;
 }
 
 
-.info_tekst p{
+.info_tekst p {
     font-size: 16px;
     color: #4C4044;
     margin: 10px 0px 10px 10%;
@@ -478,21 +495,22 @@ font-weight: 100;
 }
 
 /* læg i kurv & fragt */
-.kurv_knap{
+
+.kurv_knap {
     background-color: #4C4044;
     padding: 10px 40px 10px 40px;
     margin: 0% 30% 0% 30%;
     color: white;
-    font-family:  'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font font-size: 16px;
     line-height: 16;
     position: relative;
     top: -90px;
 }
 
-.fri_fragt img{
+.fri_fragt img {
     width: 40px;
-    height:30px;
+    height: 30px;
     margin-right: 10px;
 }
 
@@ -506,19 +524,20 @@ font-weight: 100;
 
 /* populære produkter (bund af produktside)*/
 
-.produkter_bund{
+.produkter_bund {
     position: relative;
     top: -170px;
 }
 
 
-.overskrift_bund{
+.overskrift_bund {
     font-family: 'Abril Fatface', cursive;
     font-weight: normal;
     margin-left: 15px;
     color: #4C4044;
 }
-.streg_overskrift{
+
+.streg_overskrift {
     background-color: #768281;
     padding: 1px 1px 2.5px 1px;
     margin: 0;
@@ -526,8 +545,31 @@ font-weight: 100;
     position: absolute;
     right: 5px;
     top: 24px;
-    
+
 }
+
+
+ /* HVEM ER VI SIDE START*/
+    #vi_billede{
+        margin-top: 30%;  
+        margin-left: 5%; 
+        width: 30%; 
+        height: auto; 
+    }
+    
+    .hvem_er_vi{
+    
+    }
+    
+    .trine{
+        font-size: 15px; 
+    }
+
+.tegn{
+    font-size: 40px; 
+}
+    /* HVEM ER VI SIDE SLUT*/
+    
 
 /* footer */
 
@@ -584,9 +626,9 @@ footer {
 
 /*tablet*/
 
-@media (min-width: 767px)  {
-  
-  header {
+@media (min-width: 767px) {
+
+    header {
         position: fixed;
     }
 
@@ -606,9 +648,9 @@ footer {
     }
 
     .comlogo {
-        
+
         display: none;
-       
+
     }
 
     .commenu {
@@ -634,159 +676,155 @@ footer {
 
     .headlogo {
         display: inline;
-        left:2%
+        left: 2%
     }
-    
-    
+
+
     /*Hero image og tekst - forside*/
-    
-    .heromobil{
+    .heromobil {
         display: none;
     }
-    
-    .hero img{
-        width:90%;
+
+    .hero img {
+        width: 90%;
         margin-left: 5%;
-        
+
     }
-    
+
     .herocom {
-       display: inline;
-        
-    
-        
-        
-    }
-    
-    .tekst{
-    left:43%;
-    top:52%
-}
+        display: inline;
 
-.tekst h1{
-    
-    font-size: 30px;
-    
-}
 
-.tekst p{
-    font-size: 14px;
-    width:80%;
-    
-}
-    
-    .hero button{
-        left:74.5%;
-        top: 89%; 
-        height:30px;
-        width:100px;
-    
+
+
     }
-    
+
+    .tekst {
+        left: 43%;
+        top: 52%
+    }
+
+    .tekst h1 {
+
+        font-size: 30px;
+
+    }
+
+    .tekst p {
+        font-size: 14px;
+        width: 80%;
+
+    }
+
+    .hero button {
+        left: 74.5%;
+        top: 89%;
+        height: 30px;
+        width: 100px;
+
+    }
+
     /*teaser på forside*/
-    
-     
-    .teaser{
-        display:none;
+    .teaser {
+        display: none;
     }
-    
-    .teasercom1{
-        display: inline-block;
-        position: relative;
-        width:50%;
-        margin-left:5%;
-        margin-top:10px;
-        float: left;
 
-    }
-    
-    .teasercom2{
+    .teasercom1 {
         display: inline-block;
         position: relative;
-        width:38%;
+        width: 50%;
+        margin-left: 5%;
         margin-top: 10px;
         float: left;
-        margin-left:2%;
-        
-        
+
     }
-    
-    .teasercom3{
+
+    .teasercom2 {
         display: inline-block;
         position: relative;
-        width:38%;
-        margin-left:5%;
+        width: 38%;
+        margin-top: 10px;
+        float: left;
+        margin-left: 2%;
+
+
     }
-    
-    .teasercom4{
+
+    .teasercom3 {
         display: inline-block;
-        position:relative;
-        width:50%;
-        margin-left:2%;
+        position: relative;
+        width: 38%;
+        margin-left: 5%;
     }
-    
-    
-    .teasercom1:hover{
-        opacity: 0.7;
+
+    .teasercom4 {
+        display: inline-block;
+        position: relative;
+        width: 50%;
+        margin-left: 2%;
     }
-    
-    .teasercom2:hover{
-        opacity: 0.7;
-    }
-    
-     .teasercom3:hover{
-        opacity: 0.7;
-    }
-    
-     .teasercom4:hover{
+
+
+    .teasercom1:hover {
         opacity: 0.7;
     }
 
+    .teasercom2:hover {
+        opacity: 0.7;
+    }
 
-    .seamlesscom img{
-       
-    width:100%;
-    height:184.31px;
-        
+    .teasercom3:hover {
+        opacity: 0.7;
     }
-    
-    .kvalitetcom img{
 
-        width:100%;
-        height:184.31px;
-    }
-    
-    .vaskeguidecom img{
-        width:100%;
-        height:184.31px;
-        margin-top:10px;
-        
-    }
-    
-    .emballagecom img{
-        width:100%;
-        height:184.31px;
+    .teasercom4:hover {
+        opacity: 0.7;
     }
 
 
-/* webshop */
+    .seamlesscom img {
+
+        width: 100%;
+        height: 184.31px;
+
+    }
+
+    .kvalitetcom img {
+
+        width: 100%;
+        height: 184.31px;
+    }
+
+    .vaskeguidecom img {
+        width: 100%;
+        height: 184.31px;
+        margin-top: 10px;
+
+    }
+
+    .emballagecom img {
+        width: 100%;
+        height: 184.31px;
+    }
+
+
+    /* webshop */
     .filtrering {
         padding-left: 30%;
     }
 
-.galleri {
-    margin: 80px 60px 10px 60px;
-}
+    .galleri {
+        margin: 80px 60px 10px 60px;
+    }
 
-/* wrapper om billede og produktinformationen */
+    /* wrapper om billede og produktinformationen */
+    .produkt {
+        width: 30.2%;
+    }
 
-.produkt {
-    width: 30.2%;
-}
 
-    
-/* footer */
-     .footer-list {
+    /* footer */
+    .footer-list {
 
         display: flex;
         flex-direction: row;
@@ -821,7 +859,6 @@ footer {
 @media (min-width: 1024px) {
 
     /*header*/
-
     header {
         position: fixed;
     }
@@ -855,7 +892,7 @@ footer {
         display: inline;
         list-style: none;
         white-space: nowrap;
-        
+
 
     }
 
@@ -869,68 +906,64 @@ footer {
         color: #4C4044;
         float: left;
         top: -26px;
-        left:22%
-        
-        
+        left: 22%
     }
 
     .headlogo {
         display: none;
     }
-    
-    
+
+
     /*Hero image - forside*/
-    
-    .tekst h1{
+    .tekst h1 {
         font-size: 40px;
     }
-    
-    .tekst p{
-        font-size:  16px;
-       
+
+    .tekst p {
+        font-size: 16px;
+
     }
-    
-    .herostor{
+
+    .herostor {
         display: none;
     }
-    
-    .hero button{
-        width:120px;
-        height:40px;
+
+    .hero button {
+        width: 120px;
+        height: 40px;
         font-size: 18px;
-        left:77%
+        left: 77%
     }
-    
+
     /*teaser på forsiden*/
-       
-    .linktekst{
+    .linktekst {
         font-size: 33px;
     }
-    
-    .seamlesscom img{
-   
-    height:280px;
-        
-    }
-    
-    .kvalitetcom img{
 
-        height:280px;
-    }
-    
-    .vaskeguidecom img{
-        height:280px;
-       
-        
-    }
-    
-    .emballagecom img{
-        
-        height:280px;
+    .seamlesscom img {
+
+        height: 280px;
+
     }
 
-    
-   
+    .kvalitetcom img {
+
+        height: 280px;
+    }
+
+    .vaskeguidecom img {
+        height: 280px;
+
+
+    }
+
+    .emballagecom img {
+
+        height: 280px;
+    }
+
+
+
     /*WEBSHOP*/
     /* webshop */
     .filterdrop {
@@ -940,116 +973,106 @@ footer {
         padding-left: 40%;
     }
 
-.galleri {
-    margin: 80px 120px 10px 120px;
-}
+    .galleri {
+        margin: 80px 120px 10px 120px;
+    }
 
-/* wrapper om billede og produktinformationen */
-
-.produkt {
-    width: 28.2%;
-    margin: 20px;
-}
+    /* wrapper om billede og produktinformationen */
+    .produkt {
+        width: 28.2%;
+        margin: 20px;
+    }
 }
 
 /* produktstørrelse*/
 
-
 @media (min-width: 1440px) {
-    .commenu a{
-        left:32%;
+    .commenu a {
+        left: 32%;
     }
-    
-    
+
+
     /*Hero image og tekst*/
-    
-        .herocom{
+    .herocom {
         display: none;
-        
+
     }
-    
-    .herostor{
+
+    .herostor {
         display: inline-block;
     }
-    
-    .tekst p{
-        width:65%
+
+    .tekst p {
+        width: 65%
     }
-    
-    .tekst h1{
+
+    .tekst h1 {
         font-size: 50px;
     }
-    
-    .tekst p{
-        font-size:22px
+
+    .tekst p {
+        font-size: 22px
     }
-    
-    .hero button{
-        
-    }
-    
+
+    .hero button {}
+
     .tekst {
-    
-        top:58%;
+
+        top: 58%;
     }
-    
-    .hero button{
+
+    .hero button {
         width: 170px;
-        height:60px;
-        font-size:28px;
-        top:87%;
-        left:80%
+        height: 60px;
+        font-size: 28px;
+        top: 87%;
+        left: 80%
     }
-    
+
     /*teaser på forside*/
-       .seamlesscom img{
-       
-    
-    height:320px;
-        
-    }
-    
-    .kvalitetcom img{
+    .seamlesscom img {
 
-       
-        height:320px;
-    }
-    
-    .vaskeguidecom img{
-       margin-top:20px;
-        height:320px;
-      
-        
-    }
-    
-    .emballagecom img{
-        margin-top:20px;
-        height:320px;
+
+        height: 320px;
+
     }
 
-    
-    
-  
-      /* webshop */
+    .kvalitetcom img {
+
+
+        height: 320px;
+    }
+
+    .vaskeguidecom img {
+        margin-top: 20px;
+        height: 320px;
+
+
+    }
+
+    .emballagecom img {
+        margin-top: 20px;
+        height: 320px;
+    }
+
+
+
+
+    /* webshop */
     .filtrering {
         width: 100%;
         padding-left: 50%;
     }
-    
 
 
-.galleri {
+
+    .galleri {}
+
+    /* wrapper om billede og produktinformationen */
+    .produkt {
+        width: 30%;
+        margin: 20px;
+    }
+
 
 }
-
-/* wrapper om billede og produktinformationen */
-
-.produkt {
-    width: 30%;
-    margin: 20px;
-}  
-    
-
-}
-
-
