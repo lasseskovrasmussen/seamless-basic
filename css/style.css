@@ -295,7 +295,7 @@ letter-spacing: 0.5px;
 .filtrering {
     width: 100%;
     background-color: white;
-    padding: 0 15% 0 15%;
+    margin-left: 15%;
 }
 .filterdrop {
     background-color: #ffff;
@@ -329,13 +329,14 @@ letter-spacing: 0.5px;
 .filter-content2 {
     margin-left: 30%;
 }
-.filter-content a, .filter-content1 a, .filter-content2 a {
+.filter-content li, .filter-content1 li, .filter-content2 li {
+    cursor: pointer;
     color: #4C4044;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    list-style-type: none;
 }
-
 
 .filterknapper:hover .filter-content, .filterknapper:hover .filter-content1, .filterknapper:hover .filter-content2  {
     display: block;
@@ -344,7 +345,8 @@ letter-spacing: 0.5px;
 /* Hele galleriet - billeder af tøj og beskrivelser) */
 
 .galleri {
-    margin: 80px 20px 10px 20px;
+    width: 80%;
+    margin: 80px 10% 10px 10%;
 }
 
 /* wrapper om billede og produktinformationen */
@@ -377,7 +379,7 @@ letter-spacing: 0.5px;
     background-color: #4C4044;
     color: white;
     width: 70%;
-    font-size: 18px;
+    font-size: 12px;
     font-family: 'Raleway', sans-serif;
     color: white;
     letter-spacing: 1px;
@@ -771,19 +773,25 @@ footer {
 
 /* webshop */
     .filtrering {
-        padding-left: 30%;
+        margin-left: 35%;
+        width: 100%;
     }
 
-.galleri {
-    margin: 80px 60px 10px 60px;
+.filter-content1 {
+    margin-left: 10%;
 }
-
+.filter-content2 {
+    margin-left: 24%;
+}
 /* wrapper om billede og produktinformationen */
 
 .produkt {
-    width: 30.2%;
+    width: 30%;
 }
-
+    /* produkttype beskrivelse */
+    .type {
+font-size: 14px;
+    }
     
 /* footer */
      .footer-list {
@@ -934,21 +942,21 @@ footer {
     /*WEBSHOP*/
     /* webshop */
     .filterdrop {
-        font-size: 20px;
+margin: 0 20px 0 20px;
     }
     .filtrering {
-        padding-left: 40%;
+        
     }
 
+
 .galleri {
-    margin: 80px 120px 10px 120px;
 }
 
 /* wrapper om billede og produktinformationen */
 
 .produkt {
-    width: 28.2%;
-    margin: 20px;
+    width: 26.7%;
+    margin: 27px;
 }
 }
 
@@ -1032,21 +1040,13 @@ footer {
   
       /* webshop */
     .filtrering {
-        width: 100%;
-        padding-left: 50%;
+margin-left: 40%;
     }
-    
-
-
-.galleri {
-
-}
 
 /* wrapper om billede og produktinformationen */
-
 .produkt {
-    width: 30%;
-    margin: 20px;
+    width: 28.9%;
+    margin: 25px;
 }  
     
 
