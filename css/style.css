@@ -443,6 +443,7 @@ ul.breadcrumb li a {
 }
 
 /*produkt information */
+
 .info h1 {
 text-align: center;
 color: #4C4044;
@@ -539,9 +540,11 @@ font-weight: 100;
 .overskrift_bund{
     font-family: 'Abril Fatface', cursive;
     font-weight: normal;
-    margin-left: 15px;
+    margin-left: 0px;
     color: #4C4044;
-    width: 230px;
+    width: 190px;
+    font-size: 20px;
+    margin-left: 2%;
     
 }
 .streg_overskrift{
@@ -549,9 +552,13 @@ font-weight: 100;
     height: 4px;
     width: 37%;
     position: relative;
-    top: 41px;
+    top: 33px;
     margin-left: 5px;
     
+}
+
+.produkt_3_infoside{
+    display: none;
 }
 
 /* footer */
@@ -908,6 +915,28 @@ margin-top: 0;
     margin-top: 50px;
 }
 
+.produkt_3_infoside{
+    display: block;
+}
+
+.produkter_bund_overskrift{
+    margin: 0% 0% 0% 5%;  
+    }
+    
+.produkter_bund{
+margin-left: 10%;
+margin-top: 0;
+        
+    }
+    
+.streg_overskrift{
+        width: 50%;
+        top: 62px;
+    }
+.overskrift_bund {
+    font-size: 35px;
+    width: 334px;
+    }
     
 }
 
@@ -1065,6 +1094,16 @@ margin: 50px 0px 0px 150px;
 }
 .container_web{
     justify-content: flex-start;
+    }
+    
+.overskrift_bund {
+    font-size: 35px;
+    width: 340px;
+    }
+.streg_overskrift{
+    width: 60%;
+    
+        
     }
 
 }
