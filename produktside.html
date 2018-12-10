@@ -71,12 +71,23 @@
 <!-- foto slider --> 
 
 <div class="container_web">
+<div class="container_slider">
 <div class="fade">
-  <div><img src="images/produkt_hvid1.jpg" alt=""></div>
-  <div><img src="images/produkt_hvid2.jpg" alt=""></div>
-  <div><img src="images/produkt_hvid2.jpg" alt=""></div>
+  <div><img src="images/produkt_hvid1.jpg" alt="" id="picture1"></div>
+  <div><img src="images/produkt_hvid2.jpg" alt="" id="picture2"></div>
+  <div><img src="images/produkt_hvid2.jpg" alt="" id="picture3"></div>
 </div>
 
+ 
+<p class="farveknap_overskrit">Vælg farve</p>
+<div class="container_farveknap"> 
+<div id="hvid"><img src="images/hvid_knap.png" alt="vælg tøj - hvid knap"></div>
+<div id="sort"><img src="images/sort_knap.png" alt="vælg tøj - sort knap"></div>
+<div id="pink"><img src="images/pink_knap.png" alt="vælg tøj - pink knap"></div>
+<div id="grå"><img src="images/gr%C3%A5_knap1.png" alt="vælg tøj - grå knap"></div>
+    </div>  
+    </div>
+    
 <div class="info">
 <h1>Elvira</h1>
 <h2>Seamless longsleeve t-shirt</h2>
@@ -174,13 +185,37 @@ function closeNav() {
   <script type="text/javascript">
     $(document).ready(function(){
       $('.fade').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   fade: true,
-  cssEase: 'linear',
-  dots: false,
+  cssEase: 'linear'
 });
+        
+    $('#sort').click(function(){
+    $('#picture1').attr('src', "images/produkt_sort1.jpg");
+    $('#picture2').attr('src', "images/produkt_sort2.jpg");
+    $('#picture3').attr('src', "images/produkt_sort3.jpg");
+    });
+
+    
+    $('#hvid').click(function(){
+    $('#picture1').attr('src', "images/produkt_hvid1.jpg");
+    $('#picture2').attr('src', "images/produkt_hvid2.jpg");
+    $('#picture3').attr('src', "images/produkt_hvid3.jpg");
+    });
+    
+    $('#pink').click(function(){
+    $('#picture1').attr('src', "images/produkt_pink1.jpg");
+    $('#picture2').attr('src', "images/produkt_pink2.jpg");
+    $('#picture3').attr('src', "images/produkt_pink3.jpg");
+    });
+        
+    $('#grå').click(function(){
+    $('#picture1').attr('src', "images/produkt_grå1.jpg");
+    $('#picture2').attr('src', "images/produkt_grå2.jpg");
+    $('#picture3').attr('src', "images/produkt_grå3.jpg");
+    });
       });
   </script>
   

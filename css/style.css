@@ -434,6 +434,23 @@ ul.breadcrumb li a {
   color:#768281 !important;
 }
 
+.container_farveknap , img{
+    width: 20px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.container_farveknap{
+    justify-content: center;
+    width: 100%;
+}
+
+.farveknap_overskrit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 /*produkt information */
 
 .info h1 {
@@ -547,6 +564,12 @@ font-weight: 100;
     top: 33px;
     margin-left: 5px;
     
+}
+
+.produkter_bund{
+margin-left: 10%;
+margin-top: 0;
+width: 90%;
 }
 
 .produkt_3_infoside{
@@ -891,13 +914,11 @@ margin-top: 0;
     display: block;
 }
 
-.produkter_bund_overskrift{
-    margin: 0% 0% 0% 5%;  
-    }
     
 .produkter_bund{
 margin-left: 10%;
 margin-top: 0;
+width: 80%;
         
     }
     
