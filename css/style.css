@@ -866,16 +866,20 @@ font-size: 14px;
     
 .info h1 {
 text-align: left;
+margin-bottom: 0;
 }
 
 .info h2 {
 text-align: left;
 font-size: 17px;
+margin-bottom: 0;
 }
 
 .info h3 {
 text-align: left;
 font-size: 17px;
+margin-bottom: 30px;
+margin-top: 0;
 }
     
 .info_tekst p{
@@ -899,11 +903,16 @@ font-size: 17px;
     
 .kurv_container{
     display: block;
-    margin-top: 30px;    
+    margin-top: 50px;    
 }    
 .info{
     margin-left: 5%
     }
+    
+.fri_fragt {
+    margin-top: 50px;
+}
+
     
 }
 
@@ -1057,13 +1066,11 @@ margin: 0 20px 0 20px;
 }
 
 .info{
-margin: 100px 0px 0px 100px;
+margin: 50px 0px 0px 150px;
 }
 .container_web{
     justify-content: flex-start;
     }
-
-
 
 }
 
