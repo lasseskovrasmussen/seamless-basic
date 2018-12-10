@@ -286,17 +286,15 @@ letter-spacing: 0.5px;
 }
 
 
-
-
-
-
-
 /*WEBSHOP */
 /* Filtrering af tøjet*/
 .filtrering {
+    clear: both;
+    position: absolute;
     width: 100%;
     background-color: white;
-    margin-left: 15%;
+    margin-left: 25%;
+    margin-top: -50px;
 }
 .filterdrop {
     background-color: #ffff;
@@ -325,7 +323,7 @@ letter-spacing: 0.5px;
 }
 
 .filter-content1 {
-    margin-left: 13%;
+    margin-left: 15%;
 }
 .filter-content2 {
     margin-left: 30%;
@@ -346,8 +344,9 @@ letter-spacing: 0.5px;
 /* Hele galleriet - billeder af tøj og beskrivelser) */
 
 .galleri {
+    clear: both;
     width: 80%;
-    margin: 80px 10% 10px 10%;
+    margin: 150px 10% 10px 10%;
 }
 
 /* wrapper om billede og produktinformationen */
@@ -356,6 +355,7 @@ letter-spacing: 0.5px;
     float: left;
     margin: 10px;
     width: 40%;
+    margin-bottom: 30px;
 }
 
 .produkt .toj-galleri {
@@ -380,7 +380,7 @@ letter-spacing: 0.5px;
     background-color: #4C4044;
     color: white;
     width: 70%;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
     color: white;
     letter-spacing: 1px;
@@ -389,14 +389,6 @@ letter-spacing: 0.5px;
 
 }
 
-.fed {
-    font-weight: font-weight: bold;
-}
-
-.breaking {
-    margin: 0;
-    padding-top: 4px;
-}
 /* produktside styling */
 
 .main_section{
@@ -563,17 +555,21 @@ font-weight: 100;
 
 /* footer */
 footer {
+    clear: both;
     background-color: #768281;
     color: white;
     text-align: center;
-    position: absolute;
-    bottom: -1450px;
+    width: 100%;
+    height: 450px;
+    margin-bottom: -10px;
+    margin-top: 10px;
 }
 
 /* punkterne i footeren */
 
 .footer-list {
     list-style-type: none;
+    padding: 20px;
 }
 
 /* logo i footer */
@@ -594,6 +590,7 @@ footer {
 .footer-info {
     color: white;
     text-decoration: none;
+    font-style: normal;
 }
 
 /* faq overksrift footer */
@@ -609,6 +606,7 @@ footer {
     width: 10%;
     float: right;
     margin: 20px;
+    margin: 2px;
 }
 
 /*tablet*/
@@ -810,6 +808,7 @@ footer {
 .filter-content2 {
     margin-left: 24%;
 }
+    
 /* wrapper om billede og produktinformationen */
 
 .produkt {
@@ -819,35 +818,7 @@ footer {
     .type {
 font-size: 14px;
     }
-    
-/* footer */
-     .footer-list {
-
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        margin: 5px;
-    }
-    .footer-logo {
-        width: 7%;
-        margin-right: 0;
-    }
-    .kontakt-info,
-    .fakta {
-        width: 15%;
-        margin-left: -20%;
-    }
-
-    .fakta {
-        margin-top: -30px;
-    }
-
-    .instagram {
-        margin-top: 50px;
-
-    }
-    
+     
 /* produktinformations side */ 
 .fade img{
     width: 400px;
@@ -915,6 +886,7 @@ margin-top: 0;
     margin-top: 50px;
 }
 
+
 .produkt_3_infoside{
     display: block;
 }
@@ -937,7 +909,38 @@ margin-top: 0;
     font-size: 35px;
     width: 334px;
     }
+
+/* Footer */    
+    footer {
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+     .footer-list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
     
+    .footer-logo {
+        width: 7%;
+        margin-right: 0;
+    }
+    .kontakt-info,
+    .fakta {
+        width: 15%;
+        margin-left: -20%;
+    }
+
+    .fakta {
+        margin-top: -30px;
+    }
+
+    .instagram {
+        margin-top: 25%;;
+width: 15%;
+    }
 }
 
 
@@ -1058,22 +1061,22 @@ margin-top: 0;
    
     /*WEBSHOP*/
     /* webshop */
-    .filterdrop {
-margin: 0 20px 0 20px;
-    }
     .filtrering {
+        position: absolute;
+        width: 100%;
+        padding: 2px;
+    }
+    
+    .filterdrop {
+        margin-left: 20px;
+        margin-right: 20px;
         
     }
-
-
-.galleri {
-}
-
 /* wrapper om billede og produktinformationen */
 
 .produkt {
-    width: 26.7%;
-    margin: 27px;
+    width: 29.7%;
+    margin: 20px;
 }
 
 /* produktsiden */
