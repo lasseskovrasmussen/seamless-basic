@@ -10,15 +10,12 @@ body {
 
 }
 
-h1 {
-    font-family: 'Abril Fatface';
-}
 
 p,
 h2,
-h3 {
-    font-family: 'Raleway', sans-serif;
-
+h3{
+ font-family: 'Raleway', sans-serif;
+    
 }
 
 
@@ -107,11 +104,11 @@ header {
     background-color: white;
     position: fixed;
     top: 0;
-    position: fixed;
-    top: 0;
+    position:fixed;
+    top:0;
     z-index: 1000;
-
-
+   
+  
 
 }
 
@@ -159,114 +156,114 @@ label {
 
 /*billede og tekst på forside - Hero*/
 
-.hero {
+.hero{
     position: relative;
-    width: 100%;
+    width:100%;
     height: auto;
-    margin-top: 80px;
-
-
+    margin-top:80px;
+    
+    
 }
 
 
 
 
-.hero img {
+.hero img{
     width: 100%;
-
+    
 }
 
 
 
 
 
-.hero button {
+.hero button{
     position: absolute;
-    border: none;
+    border:none;
     background-color: #FFFFFF;
-    color: #5C5255;
+    color:#5C5255;
     font-family: 'Abril Fatface';
     font-size: 16px;
     text-decoration: underline;
-    width: 120px;
-    height: 40px;
-    top: 85%;
-    left: 55%;
-
+    width:120px;
+    height:40px;
+    top:85%;
+    left:55%;
+    
 }
 
-.tekst {
-    position: absolute;
-    top: 47%;
-    left: 14%;
-    color: white;
+.tekst{
+    position:absolute;
+    top:47%;
+    left:14%;
+    color:white;
 }
 
-.tekst h1 {
+.tekst h1{
     margin-bottom: 0;
-    width: 100%;
+    width:100%;
 }
 
-.tekst p {
-    margin-top: 4px;
+.tekst p{
+   margin-top:4px;
     font-size: 10px;
-    width: 94%
+    width:94%
 }
 
-.herocom,
-.herostor {
+.herocom, .herostor{
     display: none;
 }
 
 
 /* Teasers på forside*/
 
-.teaser {
-    position: relative;
-    width: 100%;
+.teaser{
+    position:relative;
+    width:100%;
     margin-top: 12px;
 }
 
 /*hvad er seamless*/
 
-.seamless img {
+.seamless img  {
     position: relative;
-    width: 90%;
-    margin-left: 5%
+    width:90%;
+    margin-left:5%
+     
 }
 
-.kvalitet img {
+.kvalitet img{
     position: relative;
-    width: 90%;
-    margin-left: 5%;
-
+    width:90%;
+    margin-left:5%;
+    
 }
 
 
-.vaskeguide img {
+.vaskeguide img{
     position: relative;
-    width: 90%;
-    margin-left: 5%;
+    width:90%;
+    margin-left:5%;
 }
 
-.emballage img {
+.emballage img{
     position: relative;
-    width: 90%;
-    margin-left: 5%;
+    width:90%;
+    margin-left:5%;
 }
 
-.linktekst {
-    text-decoration: none;
-    font-family: 'Abril Fatface';
-    font-size: 23px;
-    font-weight: 100;
-    white-space: nowrap;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    letter-spacing: 0.5px;
+.linktekst{
+text-decoration: none;
+font-family: 'Abril Fatface';
+font-size: 23px;
+font-weight: 100;
+white-space: nowrap;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+letter-spacing: 0.5px;
 
 
 }
@@ -279,11 +276,11 @@ label {
     display: none;
 }
 
-.teasercom3 {
+.teasercom3{
     display: none;
 }
 
-.teasercom4 {
+.teasercom4{
     display: none;
 }
 
@@ -294,15 +291,12 @@ label {
 
 
 /*WEBSHOP */
-
 /* Filtrering af tøjet*/
-
 .filtrering {
     width: 100%;
     background-color: white;
     margin-left: 15%;
 }
-
 .filterdrop {
     background-color: #ffff;
     color: white;
@@ -319,14 +313,12 @@ label {
     display: inline-block;
 }
 
-.filter-content,
-.filter-content1,
-.filter-content2 {
+.filter-content, .filter-content1, .filter-content2  {
     display: none;
     position: absolute;
     background-color: #fff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-top: 45px;
 }
@@ -334,889 +326,846 @@ label {
 .filter-content1 {
     margin-left: 13%;
 }
-
 .filter-content2 {
     margin-left: 30%;
 }
+.filter-content li, .filter-content1 li, .filter-content2 li {
+    cursor: pointer;
+    color: #4C4044;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+}
+
+.filterknapper:hover .filter-content, .filterknapper:hover .filter-content1, .filterknapper:hover .filter-content2  {
+    display: block;
+}
+
+/* Hele galleriet - billeder af tøj og beskrivelser) */
+
+.galleri {
+    width: 80%;
+    margin: 80px 10% 10px 10%;
+}
+
+/* wrapper om billede og produktinformationen */
+
+.produkt {
+    float: left;
+    margin: 10px;
+    width: 40%;
+}
+
+.produkt .toj-galleri {
+    width: 100%;
+    height: auto;
+}
+
+.toj-galleri:hover {
+    transform: scale(1.05); 
+}
+
+/* Wrapper om produktinformation */
+
+.produktbeskrivelse {
+    color: #4C4044;
+    text-align: center;
+}
+
+/* læg i kurv knap */
+
+.kurv-knap {
+    background-color: #4C4044;
+    color: white;
+    width: 70%;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 8px;
+
+}
+
+.fed {
+    font-weight: font-weight: bold;
+}
+
+.breaking {
+    margin: 0;
+    padding-top: 4px;
+}
+/* produktside styling */
+
+.main_section{
+    margin-top: 100px;
+}
+
+/* breadcrumbs */
+
+ul.breadcrumb {
+    margin: 30px 0px 0px -15px;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+    color: #4C4044;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #4C4044;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* slideshow */ 
 
 
-.filter-content a,
-.filter-content1 a,
-.filter-content2 a {
 
-    .filter-content li,
-    .filter-content1 li,
-    .filter-content2 li {
-        cursor: pointer;
+.fade{
+    width: 80%;
+    margin: 10%;
+    margin-top: 2%
+}
 
-        color: #4C4044;
-        padding: 12px 16px;
+.fade img{
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color:#768281 !important;
+}
+
+/*produkt information */
+.info h1 {
+text-align: center;
+color: #4C4044;
+font-size: 40px;
+margin-bottom: 0;
+font-family: 'Raleway', sans-serif;
+}
+
+.info h2 {
+text-align: center;
+color: #4C4044;
+font-size: 12px;
+font-weight: normal;
+}
+
+.info h3 {
+text-align: center;
+color: #4C4044;
+font-size: 16px;
+font-weight: 100;
+}
+
+
+
+.fa{
+    margin-right: 15px;
+}
+
+
+
+
+.info_tekst p{
+    font-size: 16px;
+    color: #4C4044;
+    margin: 10px 0px 10px 20px;
+}
+
+.container_tekst1 {
+    display: flex; 
+    justify-content: center;
+}
+
+.container_tekst2 {
+    display: flex; 
+    justify-content: center;
+    margin-left: -42.5px;
+}
+
+
+
+
+
+/* læg i kurv & fragt */
+
+
+
+.kurv_knap{
+    background-color: #4C4044;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-family:  'Raleway', sans-serif;
+    font font-size: 16px;
+}
+
+.kurv_container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.fri_fragt img{
+    width: 40px;
+    height:30px;
+    margin-right: 10px;
+}
+
+.fri_fragt {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* populære produkter (bund af produktside)*/
+
+.produkter_bund_overskrift{
+    display: flex;
+    width: 100%
+}
+
+
+.overskrift_bund{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    margin-left: 15px;
+    color: #4C4044;
+    width: 230px;
+    
+}
+.streg_overskrift{
+    background-color: #768281;
+    height: 4px;
+    width: 37%;
+    position: relative;
+    top: 41px;
+    margin-left: 5px;
+    
+}
+
+/* footer */
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #768281;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    display: block;
+}
+
+/* punkterne i footeren */
+
+.footer-list {
+    list-style-type: none;
+}
+
+/* logo i footer */
+
+.footer-logo {
+    width: 20%;
+}
+
+/* kontaktinfo i footer */
+
+.kontakt-footer {
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+
+/* faq infoen i footer */
+
+.footer-info {
+    color: white;
+    text-decoration: none;
+}
+
+/* faq overksrift footer */
+
+.faq {
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+/* instagram link */
+
+.instagram {
+    width: 10%;
+    float: right;
+    margin: 20px;
+}
+
+/*tablet*/
+
+@media (min-width: 767px)  {
+  
+  header {
+        position: fixed;
+    }
+
+    .headlogo {
+        display: none;
+    }
+
+    .indkob {
+        max-width: 60px;
+        min-width: 60px;
+        left: 89%;
+        top: 22px;
+    }
+
+    label {
+        display: none;
+    }
+
+    .comlogo {
+        
+        display: none;
+       
+    }
+
+    .commenu {
+        display: inline;
+        list-style: none;
+        white-space: nowrap;
+
+    }
+
+    .commenu a {
+
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
         text-decoration: none;
-        display: block;
-        list-style-type: none;
+        margin-top: -6px;
+        padding-left: 80px;
+        color: #4C4044;
+        float: left;
+        position: relative;
+        top: ;
+        left: 14%
+    }
+
+    .headlogo {
+        display: inline;
+        left:2%
+    }
+    
+    
+    /*Hero image og tekst - forside*/
+    
+    .heromobil{
+        display: none;
+    }
+    
+    .hero img{
+        width:90%;
+        margin-left: 5%;
+        
+    }
+    
+    .herocom {
+       display: inline;
+        
+    
+        
+        
+    }
+    
+    .tekst{
+    left:43%;
+    top:52%
+}
+
+.tekst h1{
+    
+    font-size: 30px;
+    
+}
+
+.tekst p{
+    font-size: 14px;
+    width:80%;
+    
+}
+    
+    .hero button{
+        left:74.5%;
+        top: 89%; 
+        height:30px;
+        width:100px;
+    
+    }
+    
+    /*teaser på forside*/
+    
+     
+    .teaser{
+        display:none;
+    }
+    
+    .teasercom1{
+        display: inline-block;
+        position: relative;
+        width:50%;
+        margin-left:5%;
+        margin-top:10px;
+        float: left;
+
+    }
+    
+    .teasercom2{
+        display: inline-block;
+        position: relative;
+        width:38%;
+        margin-top: 10px;
+        float: left;
+        margin-left:2%;
+        
+        
+    }
+    
+    .teasercom3{
+        display: inline-block;
+        position: relative;
+        width:38%;
+        margin-left:5%;
+    }
+    
+    .teasercom4{
+        display: inline-block;
+        position:relative;
+        width:50%;
+        margin-left:2%;
+    }
+    
+    
+    .teasercom1:hover{
+        opacity: 0.7;
+    }
+    
+    .teasercom2:hover{
+        opacity: 0.7;
+    }
+    
+     .teasercom3:hover{
+        opacity: 0.7;
+    }
+    
+     .teasercom4:hover{
+        opacity: 0.7;
     }
 
 
-    .filterknapper:hover .filter-content,
-    .filterknapper:hover .filter-content1,
-    .filterknapper:hover .filter-content2 {
-        .filterknapper:hover .filter-content,
-        .filterknapper:hover .filter-content1,
-        .filterknapper:hover .filter-content2 {
-
-            display: block;
-        }
-
-        /* Hele galleriet - billeder af tøj og beskrivelser) */
-        .galleri {
-            width: 80%;
-            margin: 80px 10% 10px 10%;
-        }
-
-        /* wrapper om billede og produktinformationen */
-        .produkt {
-            float: left;
-            margin: 10px;
-            width: 40%;
-        }
-
-        .produkt .toj-galleri {
-            width: 100%;
-            height: auto;
-        }
-
-        .toj-galleri:hover {
-            transform: scale(1.05);
-        }
-
-        /* Wrapper om produktinformation */
-        .produktbeskrivelse {
-            color: #4C4044;
-            text-align: center;
-        }
-
-        /* læg i kurv knap */
-        .kurv-knap {
-            background-color: #4C4044;
-            color: white;
-            width: 70%;
-            font-size: 12px;
-            font-family: 'Raleway', sans-serif;
-            color: white;
-            letter-spacing: 1px;
-            text-decoration: none;
-            padding: 8px;
-
-        }
-
-        .fed {
-            font-weight: font-weight: bold;
-        }
-
-        .breaking {
-            margin: 0;
-            padding-top: 4px;
-        }
-
-        /* produktside styling */
-        .main_section {
-            margin-top: 100px;
-        }
-
-        /* breadcrumbs */
-        ul.breadcrumb {
-            margin: 30px 0px 0px -15px;
-        }
-
-        ul.breadcrumb li {
-            display: inline;
-            font-size: 12px;
-        }
-
-        ul.breadcrumb li + li:before {
-            color: #4C4044;
-            content: "/\00a0";
-        }
-
-        ul.breadcrumb li a {
-            color: #4C4044;
-            text-decoration: none;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        /* slideshow */
-        .fade {
-            width: 80%;
-            margin: 10%;
-            margin-top: 2%
-        }
-
-        .fade img {
-            width: 100%;
-        }
-
-        .slick-prev:before,
-        .slick-next:before {
-            color: #768281 !important;
-        }
-
-        /*produkt information */
-        .info h1 {
-            <<<<<<< HEAD text-align: center;
-            color: #4C4044;
-            font-size: 40px;
-            margin-bottom: 0;
-        }
-
-        .info h2 {
-            text-align: center;
-            color: #4C4044;
-            font-size: 12px;
-            font-weight: normal;
-
-
-            =======text-align: center;
-            color: #4C4044;
-            font-size: 40px;
-            margin-bottom: 0;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        .info h2 {
-            text-align: center;
-            color: #4C4044;
-            font-size: 12px;
-            font-weight: normal;
-            > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442
-        }
-
-        .info h3 {
-            text-align: center;
-            color: #4C4044;
-            font-size: 16px;
-            font-weight: 100;
-        }
-
-        <<<<<<< HEAD .fa {
-            =======.fa {
-                > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442 margin-right: 15px;
-            }
-
-
-            <<<<<<< HEAD .info_tekst p {
-                =======.info_tekst p {
-                    > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442 font-size: 16px;
-                    color: #4C4044;
-                    margin: 10px 0px 10px 20px;
-                }
-
-                .container_tekst1 {
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .container_tekst2 {
-                    display: flex;
-                    justify-content: center;
-                    margin-left: -42.5px;
-                }
-
-
-
-
-
-                /* læg i kurv & fragt */
-                <<<<<<< HEAD .kurv_knap {
-                    =======.kurv_knap {
-                        > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442 background-color: #4C4044;
-                        padding: 10px 40px 10px 40px;
-                        color: white;
-                        font-family: 'Raleway', sans-serif;
-                        font font-size: 16px;
-                    }
-
-                    .kurv_container {
-                        display: flex;
-                        position: relative;
-                        justify-content: center;
-                        margin-top: 20px;
-
-
-
-                    }
-
-                    .fri_fragt img {
-                        width: 40px;
-                        height: 30px;
-                        margin-right: 10px;
-                    }
-
-                    .fri_fragt {
-                        display: flex;
-                        position: relative;
-                        align-items: center;
-                        justify-content: center;
-                        margin-top: 20px;
-                    }
-
-                    /* populære produkter (bund af produktside)*/
-                    <<<<<<< HEAD .produkter_bund {
-                        position: relative;
-                        top: -170px;
-                        =======.produkter_bund_overskrift {
-                            display: flex;
-                            width: 100% >>>>>>> 002a5037f032d44519c0763c7a47054c48c59442
-                        }
-
-
-                        .overskrift_bund {
-                            font-family: 'Abril Fatface', cursive;
-                            font-weight: normal;
-                            margin-left: 15px;
-                            color: #4C4044;
-                            width: 230px;
-
-                        }
-
-                        .streg_overskrift {
-                            background-color: #768281;
-                            height: 4px;
-                            width: 37%;
-                            <<<<<<< HEAD position: absolute;
-                            right: 5px;
-                            top: 24px;
-
-                        }
-
-
-                        /* HVEM ER VI SIDE START*/
-                        #vi_billede {
-                            margin-top: 30%;
-                            margin-left: 5%;
-                            width: 30%;
-                            height: auto;
-                        }
-
-                        .hvem_er_vi {
-                            =======position: relative;
-                            top: 41px;
-                            margin-left: 5px;
-                            > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442
-                        }
-
-                        .trine {
-                            font-size: 15px;
-                        }
-
-                        .tegn {
-                            font-size: 40px;
-                        }
-                        /* HVEM ER VI SIDE SLUT*/
-                        /* footer */
-                        footer {
-                            font-family: 'Raleway', sans-serif;
-                            background-color: #768281;
-                            color: white;
-                            width: 100%;
-                            bottom: 0;
-                            text-align: center;
-                            display: block;
-                        }
-
-                        /* punkterne i footeren */
-                        .footer-list {
-                            list-style-type: none;
-                        }
-
-                        /* logo i footer */
-                        .footer-logo {
-                            width: 20%;
-                        }
-
-                        /* kontaktinfo i footer */
-                        .kontakt-footer {
-                            font-size: 30px;
-                            margin: 5px 0 5px 0;
-                        }
-
-                        /* faq infoen i footer */
-                        .footer-info {
-                            color: white;
-                            text-decoration: none;
-                        }
-
-                        /* faq overksrift footer */
-                        .faq {
-                            font-size: 30px;
-                            margin-bottom: -30px;
-                        }
-
-                        /* instagram link */
-                        .instagram {
-                            width: 10%;
-                            float: right;
-                            margin: 20px;
-                        }
-
-                        /*tablet*/
-                        @media (min-width: 767px) {
-
-                            header {
-                                position: fixed;
-                            }
-
-                            .headlogo {
-                                display: none;
-                            }
-
-                            .indkob {
-                                max-width: 60px;
-                                min-width: 60px;
-                                left: 89%;
-                                top: 22px;
-                            }
-
-                            label {
-                                display: none;
-                            }
-
-                            .comlogo {
-
-                                display: none;
-
-                            }
-
-                            .commenu {
-                                display: inline;
-                                list-style: none;
-                                white-space: nowrap;
-
-                            }
-
-                            .commenu a {
-
-                                font-size: 20px;
-                                font-family: 'Raleway', sans-serif;
-                                text-decoration: none;
-                                margin-top: -6px;
-                                padding-left: 80px;
-                                color: #4C4044;
-                                float: left;
-                                position: relative;
-                                top: ;
-                                left: 14%
-                            }
-
-                            .headlogo {
-                                display: inline;
-                                left: 2%
-                            }
-
-
-                            /*Hero image og tekst - forside*/
-                            .heromobil {
-                                display: none;
-                            }
-
-                            .hero img {
-                                width: 90%;
-                                margin-left: 5%;
-
-                            }
-
-                            .herocom {
-                                display: inline;
-
-
-
-
-                            }
-
-                            .tekst {
-                                left: 43%;
-                                top: 52%
-                            }
-
-                            .tekst h1 {
-
-                                font-size: 30px;
-
-                            }
-
-                            .tekst p {
-                                font-size: 14px;
-                                width: 80%;
-
-                            }
-
-                            .hero button {
-                                left: 74.5%;
-                                top: 89%;
-                                height: 30px;
-                                width: 100px;
-
-                            }
-
-                            /*teaser på forside*/
-                            .teaser {
-                                display: none;
-                            }
-
-                            .teasercom1 {
-                                display: inline-block;
-                                position: relative;
-                                width: 50%;
-                                margin-left: 5%;
-                                margin-top: 10px;
-                                float: left;
-
-                            }
-
-                            .teasercom2 {
-                                display: inline-block;
-                                position: relative;
-                                width: 38%;
-                                margin-top: 10px;
-                                float: left;
-                                margin-left: 2%;
-
-
-                            }
-
-                            .teasercom3 {
-                                display: inline-block;
-                                position: relative;
-                                width: 38%;
-                                margin-left: 5%;
-                            }
-
-                            .teasercom4 {
-                                display: inline-block;
-                                position: relative;
-                                width: 50%;
-                                margin-left: 2%;
-                            }
-
-
-                            .teasercom1:hover {
-                                opacity: 0.7;
-                            }
-
-                            .teasercom2:hover {
-                                opacity: 0.7;
-                            }
-
-                            .teasercom3:hover {
-                                opacity: 0.7;
-                            }
-
-                            .teasercom4:hover {
-                                opacity: 0.7;
-                            }
-
-
-                            .seamlesscom img {
-
-                                width: 100%;
-                                height: 184.31px;
-
-                            }
-
-                            .kvalitetcom img {
-
-                                width: 100%;
-                                height: 184.31px;
-                            }
-
-                            .vaskeguidecom img {
-                                width: 100%;
-                                height: 184.31px;
-                                margin-top: 10px;
-
-                            }
-
-                            .emballagecom img {
-                                width: 100%;
-                                height: 184.31px;
-                            }
-
-
-                            /* webshop */
-                            .filtrering {
-                                margin-left: 35%;
-                                width: 100%;
-                            }
-
-                            <<<<<<< HEAD .galleri {
-                                margin: 80px 60px 10px 60px;
-                            }
-
-                            /* wrapper om billede og produktinformationen */
-                            .produkt {
-                                width: 30.2%;
-                            }
-
-
-                            /* footer */
-                            .footer-list {
-                                =======.filter-content1 {
-                                    margin-left: 10%;
-                                }
-                                .filter-content2 {
-                                    margin-left: 24%;
-                                }
-                                /* wrapper om billede og produktinformationen */
-                                .produkt {
-                                    width: 30%;
-                                }
-                                /* produkttype beskrivelse */
-                                .type {
-                                    font-size: 14px;
-                                }
-
-                                /* footer */
-                                .footer-list {
-                                    > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442 display: flex;
-                                    flex-direction: row;
-                                    align-items: flex-start;
-                                    justify-content: space-between;
-                                    margin: 5px;
-                                }
-                                .footer-logo {
-                                    width: 7%;
-                                    margin-right: 0;
-                                }
-                                .kontakt-info,
-                                .fakta {
-                                    width: 15%;
-                                    margin-left: -20%;
-                                }
-
-                                .fakta {
-                                    margin-top: -30px;
-                                }
-
-                                .instagram {
-                                    margin-top: 50px;
-
-                                }
-
-                                /* produktinformations side */
-                                .fade img {
-                                    width: 400px;
-                                    margin: 0;
-                                }
-
-                                .fade {
-                                    width: 400px;
-                                    margin: 30px;
-                                }
-
-                                .container_web {
-                                    display: flex;
-                                    margin: 1% 5% 5% 5%;
-                                    justify-content: center;
-
-                                }
-
-                                .info h1 {
-                                    text-align: left;
-                                    margin-bottom: 0;
-                                }
-
-                                .info h2 {
-                                    text-align: left;
-                                    font-size: 17px;
-                                    margin-bottom: 0;
-                                }
-
-                                .info h3 {
-                                    text-align: left;
-                                    font-size: 17px;
-                                    margin-bottom: 30px;
-                                    margin-top: 0;
-                                }
-
-                                .info_tekst p {
-                                    font-size: 14px;
-                                    margin: 10px 0px 10px 0px;
-                                }
-
-                                .container_tekst1 {
-                                    display: block;
-                                }
-
-                                .container_tekst2 {
-                                    display: block;
-                                    margin-left: 0px;
-                                }
-
-                                .fri_fragt {
-                                    margin-left: -15px;
-                                }
-
-
-                                .kurv_container {
-                                    display: block;
-                                    margin-top: 50px;
-                                }
-                                .info {
-                                    margin-left: 5%
-                                }
-
-                                .fri_fragt {
-                                    margin-top: 50px;
-                                }
-
-
-                            }
-
-
-                            /* Laptop */
-                            @media (min-width: 1024px) {
-
-                                /*header*/
-                                header {
-                                    position: fixed;
-                                }
-
-                                .headlogo {
-                                    display: none;
-                                }
-
-                                .indkob {
-                                    max-width: 60px;
-                                    min-width: 60px;
-                                    left: 92%;
-                                    top: 22px;
-                                }
-
-                                label {
-                                    display: none;
-                                }
-
-                                .comlogo {
-                                    display: inline;
-                                    min-width: 150px;
-                                    max-width: 200px;
-                                    margin-top: 9px;
-                                    margin-left: 2%;
-                                    display: inline-block;
-                                    min-height: 30px;
-                                }
-
-                                .commenu {
-                                    display: inline;
-                                    list-style: none;
-                                    white-space: nowrap;
-
-
-                                }
-
-                                .commenu a {
-
-                                    font-size: 25px;
-                                    font-family: 'Raleway', sans-serif;
-                                    text-decoration: none;
-                                    margin-top: -6px;
-                                    padding-left: 80px;
-                                    color: #4C4044;
-                                    float: left;
-                                    top: -26px;
-                                    left: 22%
-                                }
-
-                                .headlogo {
-                                    display: none;
-                                }
-
-
-                                /*Hero image - forside*/
-                                .tekst h1 {
-                                    font-size: 40px;
-                                }
-
-                                .tekst p {
-                                    font-size: 16px;
-
-                                }
-
-                                .herostor {
-                                    display: none;
-                                }
-
-                                .hero button {
-                                    width: 120px;
-                                    height: 40px;
-                                    font-size: 18px;
-                                    left: 77%
-                                }
-
-                                /*teaser på forsiden*/
-                                .linktekst {
-                                    font-size: 33px;
-                                }
-
-                                .seamlesscom img {
-
-                                    height: 280px;
-
-                                }
-
-                                .kvalitetcom img {
-
-                                    height: 280px;
-                                }
-
-                                .vaskeguidecom img {
-                                    height: 280px;
-
-
-                                }
-
-                                .emballagecom img {
-
-                                    height: 280px;
-                                }
-
-
-
-                                /*WEBSHOP*/
-                                /* webshop */
-                                .filterdrop {
-                                    margin: 0 20px 0 20px;
-                                }
-                                .filtrering {}
-
-                                <<<<<<< HEAD .galleri {
-                                    margin: 80px 120px 10px 120px;
-                                }
-
-                                /* wrapper om billede og produktinformationen */
-                                .produkt {
-                                    width: 28.2%;
-                                    margin: 20px;
-                                }
-                                =======.galleri {}
-
-                                /* wrapper om billede og produktinformationen */
-                                .produkt {
-                                    width: 26.7%;
-                                    margin: 27px;
-                                }
-
-                                /* produktsiden */
-                                .fade img {
-                                    width: 500px;
-                                    margin: 0;
-                                }
-
-                                .fade {
-                                    width: 500px;
-                                    margin: 30px;
-                                    display: block;
-                                }
-
-                                .info {
-                                    margin: 50px 0px 0px 150px;
-                                }
-                                .container_web {
-                                    justify-content: flex-start;
-                                }
-
-                                > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442
-                            }
-
-                            /* produktstørrelse*/
-                            <<<<<<< HEAD======= > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442 @media (min-width: 1440px) {
-                                .commenu a {
-                                    left: 32%;
-                                }
-
-
-                                /*Hero image og tekst*/
-                                .herocom {
-                                    display: none;
-
-                                }
-
-                                .herostor {
-                                    display: inline-block;
-                                }
-
-                                .tekst p {
-                                    width: 65%
-                                }
-
-                                .tekst h1 {
-                                    font-size: 50px;
-                                }
-
-                                .tekst p {
-                                    font-size: 22px
-                                }
-
-                                .hero button {}
-
-                                .tekst {
-
-                                    top: 58%;
-                                }
-
-                                .hero button {
-                                    width: 170px;
-                                    height: 60px;
-                                    font-size: 28px;
-                                    top: 87%;
-                                    left: 80%
-                                }
-
-                                /*teaser på forside*/
-                                .seamlesscom img {
-
-
-                                    height: 320px;
-
-                                }
-
-                                .kvalitetcom img {
-
-
-                                    height: 320px;
-                                }
-
-                                .vaskeguidecom img {
-                                    margin-top: 20px;
-                                    height: 320px;
-
-
-                                }
-
-                                .emballagecom img {
-                                    margin-top: 20px;
-                                    height: 320px;
-                                }
-
-
-
-
-                                /* webshop */
-                                .filtrering {
-                                    margin-left: 40%;
-                                }
-                                <<<<<<< HEAD .galleri {}
-
-                                /* wrapper om billede og produktinformationen */
-                                .produkt {
-                                    width: 30%;
-                                    margin: 20px;
-                                }
-
-                                =======/* wrapper om billede og produktinformationen */
-                                .produkt {
-                                    width: 28.9%;
-                                    margin: 25px;
-                                }
-
-                                > > > > > > > 002a5037f032d44519c0763c7a47054c48c59442
-                            }
+    .seamlesscom img{
+       
+    width:100%;
+    height:184.31px;
+        
+    }
+    
+    .kvalitetcom img{
+
+        width:100%;
+        height:184.31px;
+    }
+    
+    .vaskeguidecom img{
+        width:100%;
+        height:184.31px;
+        margin-top:10px;
+        
+    }
+    
+    .emballagecom img{
+        width:100%;
+        height:184.31px;
+    }
+
+
+/* webshop */
+    .filtrering {
+        margin-left: 35%;
+        width: 100%;
+    }
+
+.filter-content1 {
+    margin-left: 10%;
+}
+.filter-content2 {
+    margin-left: 24%;
+}
+/* wrapper om billede og produktinformationen */
+
+.produkt {
+    width: 30%;
+}
+    /* produkttype beskrivelse */
+    .type {
+font-size: 14px;
+    }
+    
+/* footer */
+     .footer-list {
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 5px;
+    }
+    .footer-logo {
+        width: 7%;
+        margin-right: 0;
+    }
+    .kontakt-info,
+    .fakta {
+        width: 15%;
+        margin-left: -20%;
+    }
+
+    .fakta {
+        margin-top: -30px;
+    }
+
+    .instagram {
+        margin-top: 50px;
+
+    }
+    
+/* produktinformations side */ 
+.fade img{
+    width: 400px;
+    margin: 0;
+}
+    
+.fade{
+    width: 400px;
+    margin: 30px;   
+}
+
+.container_web{
+    display: flex;
+    margin: 1% 5% 5% 5%;
+    justify-content: center;
+    
+    }
+    
+.info h1 {
+text-align: left;
+margin-bottom: 0;
+}
+
+.info h2 {
+text-align: left;
+font-size: 17px;
+margin-bottom: 0;
+}
+
+.info h3 {
+text-align: left;
+font-size: 17px;
+margin-bottom: 30px;
+margin-top: 0;
+}
+    
+.info_tekst p{
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+}
+
+.container_tekst1 {
+    display: block; 
+}
+
+.container_tekst2 {
+    display: block; 
+    margin-left: 0px;
+}
+
+.fri_fragt{
+    margin-left: -15px;   
+}
+    
+    
+.kurv_container{
+    display: block;
+    margin-top: 50px;    
+}    
+.info{
+    margin-left: 5%
+    }
+    
+.fri_fragt {
+    margin-top: 50px;
+}
+
+    
+}
+
+
+/* Laptop */
+
+@media (min-width: 1024px) {
+
+    /*header*/
+
+    header {
+        position: fixed;
+    }
+
+    .headlogo {
+        display: none;
+    }
+
+    .indkob {
+        max-width: 60px;
+        min-width: 60px;
+        left: 92%;
+        top: 22px;
+    }
+
+    label {
+        display: none;
+    }
+
+    .comlogo {
+        display: inline;
+        min-width: 150px;
+        max-width: 200px;
+        margin-top: 9px;
+        margin-left: 2%;
+        display: inline-block;
+        min-height: 30px;
+    }
+
+    .commenu {
+        display: inline;
+        list-style: none;
+        white-space: nowrap;
+        
+
+    }
+
+    .commenu a {
+
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        margin-top: -6px;
+        padding-left: 80px;
+        color: #4C4044;
+        float: left;
+        top: -26px;
+        left:22%
+        
+        
+    }
+
+    .headlogo {
+        display: none;
+    }
+    
+    
+    /*Hero image - forside*/
+    
+    .tekst h1{
+        font-size: 40px;
+    }
+    
+    .tekst p{
+        font-size:  16px;
+       
+    }
+    
+    .herostor{
+        display: none;
+    }
+    
+    .hero button{
+        width:120px;
+        height:40px;
+        font-size: 18px;
+        left:77%
+    }
+    
+    /*teaser på forsiden*/
+       
+    .linktekst{
+        font-size: 33px;
+    }
+    
+    .seamlesscom img{
+   
+    height:280px;
+        
+    }
+    
+    .kvalitetcom img{
+
+        height:280px;
+    }
+    
+    .vaskeguidecom img{
+        height:280px;
+       
+        
+    }
+    
+    .emballagecom img{
+        
+        height:280px;
+    }
+
+    
+   
+    /*WEBSHOP*/
+    /* webshop */
+    .filterdrop {
+margin: 0 20px 0 20px;
+    }
+    .filtrering {
+        
+    }
+
+
+.galleri {
+}
+
+/* wrapper om billede og produktinformationen */
+
+.produkt {
+    width: 26.7%;
+    margin: 27px;
+}
+
+/* produktsiden */
+
+.fade img{
+    width: 500px;
+    margin: 0;
+}
+    
+.fade{
+    width: 500px;
+    margin: 30px;
+    display: block;
+}
+
+.info{
+margin: 50px 0px 0px 150px;
+}
+.container_web{
+    justify-content: flex-start;
+    }
+
+}
+
+/* produktstørrelse*/
+
+
+
+
+@media (min-width: 1440px) {
+    .commenu a{
+        left:32%;
+    }
+    
+    
+    /*Hero image og tekst*/
+    
+        .herocom{
+        display: none;
+        
+    }
+    
+    .herostor{
+        display: inline-block;
+    }
+    
+    .tekst p{
+        width:65%
+    }
+    
+    .tekst h1{
+        font-size: 50px;
+    }
+    
+    .tekst p{
+        font-size:22px
+    }
+    
+    .hero button{
+        
+    }
+    
+    .tekst {
+    
+        top:58%;
+    }
+    
+    .hero button{
+        width: 170px;
+        height:60px;
+        font-size:28px;
+        top:87%;
+        left:80%
+    }
+    
+    /*teaser på forside*/
+       .seamlesscom img{
+       
+    
+    height:320px;
+        
+    }
+    
+    .kvalitetcom img{
+
+       
+        height:320px;
+    }
+    
+    .vaskeguidecom img{
+       margin-top:20px;
+        height:320px;
+      
+        
+    }
+    
+    .emballagecom img{
+        margin-top:20px;
+        height:320px;
+    }
+
+    
+    
+  
+      /* webshop */
+    .filtrering {
+margin-left: 40%;
+    }
+
+/* wrapper om billede og produktinformationen */
+.produkt {
+    width: 28.9%;
+    margin: 25px;
+}  
+    
+
+}
+
+
