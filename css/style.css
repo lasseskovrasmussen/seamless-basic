@@ -513,6 +513,7 @@ font-weight: 100;
     color: white;
     font-family:  'Raleway', sans-serif;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .kurv_container{
@@ -575,6 +576,58 @@ width: 90%;
 }
 
 /* produktside styling SLUT *//* produktside styling SLUT *//* produktside styling SLUT *//* produktside styling SLUT */
+
+/* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling */
+
+.content_kurv{
+    margin-top: 110px;
+}
+
+.content_kurv h1{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    color: #4C4044;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.kurv_streg_overskrift{
+    padding: 2px 5px 5px 2px;
+    background-color: #768281;
+    width: 225px;
+    margin: auto;
+    position: relative;
+    top: -5px; 
+}
+
+.tom_kurv{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4C4044;
+}
+
+.kurv_knap_tom{
+    background-color: #768281;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-family:  'Raleway', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    width: 
+}
+
+.kurv_tom_container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* indkøbskurv styling - SLUT *//* indkøbskurv styling - SLUT *//* indkøbskurv styling - SLUT */
+
 
 /* footer */
 footer {
@@ -947,6 +1000,19 @@ margin-top: 0;
     }
     
 /* produktside styling - TABLET - SLUT *//* produktside styling - TABLET - SLUT *//* produktside styling - TABLET - SLUT */
+/* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling */
+    
+.content_kurv h1{
+    font-size: 50px;
+}
+
+.kurv_streg_overskrift{
+    width: 380px;
+}
+
+
+
+
 
     
 /* Footer */    
@@ -1035,7 +1101,7 @@ width: 15%;
         color: #4C4044;
         float: left;
         top: -26px;
-        left:27%
+        left:26%
         
         
     }
