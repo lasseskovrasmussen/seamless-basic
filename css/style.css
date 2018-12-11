@@ -290,11 +290,11 @@ letter-spacing: 0.5px;
 /* Filtrering af tøjet*/
 .filtrering {
     clear: both;
-    position: absolute;
-    width: 100%;
+    max-width: 100%;
     background-color: white;
-    margin-left: 25%;
-    margin-top: -50px;
+    margin-top: 90px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .filterdrop {
     background-color: #ffff;
@@ -346,7 +346,7 @@ letter-spacing: 0.5px;
 .galleri {
     clear: both;
     width: 80%;
-    margin: 150px 10% 10px 10%;
+    margin: 150px auto 10px auto;
 }
 
 /* wrapper om billede og produktinformationen */
@@ -385,7 +385,7 @@ letter-spacing: 0.5px;
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
-    padding: 8px;
+    padding: 8px 30px 8px 30px;
 
 }
 
@@ -579,12 +579,13 @@ width: 90%;
 /* footer */
 footer {
     clear: both;
+    display: block;
     background-color: #768281;
     color: white;
     text-align: center;
     width: 100%;
-    height: 450px;
-    margin-bottom: -10px;
+    height: 100%;
+    bottom: 0;
     margin-top: 10px;
 }
 
@@ -599,6 +600,8 @@ footer {
 
 .footer-logo {
     width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* kontaktinfo i footer */
@@ -627,9 +630,8 @@ footer {
 
 .instagram {
     width: 10%;
-    float: right;
-    margin: 20px;
-    margin: 2px;
+    margin-top: -30px;
+    margin-left: auto;
 }
 
 /*tablet*/
@@ -826,10 +828,10 @@ footer {
     }
 
 .filter-content1 {
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .filter-content2 {
-    margin-left: 24%;
+    margin-left: 26%;
 }
     
 /* wrapper om billede og produktinformationen */
@@ -950,33 +952,33 @@ margin-top: 0;
     
 /* Footer */    
     footer {
-        height: auto;
-        padding: 10px;
-        box-sizing: border-box;
+        height: 100%;
     }
+    
      .footer-list {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-between;
     }
     
     .footer-logo {
-        width: 7%;
-        margin-right: 0;
+        margin-left: 0;
+        width: 15%
     }
+    
     .kontakt-info,
     .fakta {
         width: 15%;
-        margin-left: -20%;
+        margin-left: auto;
     }
 
     .fakta {
-        margin-top: -30px;
+        margin-top: -18px;
+        padding-left: 25px;
     }
 
     .instagram {
-        margin-top: 25%;;
+        margin-top: 25%;
 width: 15%;
     }
 }
@@ -1098,25 +1100,21 @@ width: 15%;
     
    
     /*WEBSHOP*/
-    /* webshop */
-    .filtrering {
-        position: absolute;
-        width: 100%;
-        padding: 2px;
+/* filtercontent dropdown */
+    .filter-content1 {
+        margin-left: 10%;
     }
     
-    .filterdrop {
-        margin-left: 20px;
-        margin-right: 20px;
-        
+    .filter-content2 {
+        margin-left: 20%;
     }
 /* wrapper om billede og produktinformationen */
-
 .produkt {
-    width: 29.7%;
-    margin: 20px;
+    width: 28.4%;
+    margin: 20px 20px 40px 20px;
 }
 
+    
 /* produktside styling - WEB */ /* produktside styling - TABLET - SLUT *//* produktside styling - TABLET - SLUT */
 
 /* slide show - web *//* slide show - web *//* slide show - web */
@@ -1154,13 +1152,20 @@ margin: 20px 0px 0px 150px;
         
     }
 
-}
+
 
 /* produktstørrelse*/
 
+/* Footer */
 
-
-
+    .footer-logo {
+        width: 10%;
+    }
+    
+    .fakta {
+        margin-right: 20%;
+    }
+}
 @media (min-width: 1440px) {
     .commenu a{
         left:32%;
@@ -1240,6 +1245,9 @@ margin: 20px 0px 0px 150px;
     .filtrering {
 margin-left: 40%;
     }
+
+        /*WEBSHOP*/
+/* filtercontent dropdown */
 
 /* wrapper om billede og produktinformationen */
 .produkt {
