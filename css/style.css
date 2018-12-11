@@ -1324,9 +1324,8 @@ margin: 20px 0px 0px 150px;
         width: 5%;
     }
     
-    .fakta, .kontakt-info {
-        margin-right: 30px;
-        margin-left: 30px;
+    .fakta {
+        margin-right: auto;
     }
     .instagram {
         margin-top: 50px;
@@ -1427,24 +1426,13 @@ margin: 20px 0px 0px 150px;
     
 }
 
-    
-    
-  
-      /* webshop */
-    .filtrering {
-margin-left: 40%;
-    }
 
         /*WEBSHOP*/
-/* filtercontent dropdown */
-
 /* wrapper om billede og produktinformationen */
 .produkt {
     width: 28.9%;
-    margin: 25px;
 }  
     
-
 }
 
 
