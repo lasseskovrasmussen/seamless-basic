@@ -826,7 +826,7 @@ footer {
     
     .hero button{
         left:74.5%;
-        top: 89%; 
+        top: 90%; 
         height:30px;
         width:100px;
     
@@ -1172,11 +1172,10 @@ margin-top: 0;
         color: #4C4044;
         float: left;
         top: -26px;
-<<<<<<< HEAD
+
         left:26%
-=======
-        left:20%
->>>>>>> 65ae9785b5921bba7112448f89f1a4d21cb05d38
+
+
         
         
     }
