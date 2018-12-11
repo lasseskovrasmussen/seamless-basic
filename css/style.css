@@ -91,8 +91,9 @@ h3{
 }
 
 .overlay-content img {
-    width: 100px;
+    width: 25%;
     padding-top: 20px;
+    margin-left:37.5%;
 
 }
 
@@ -181,7 +182,7 @@ label {
 .hero button{
     position: absolute;
     border:none;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
     color:#5C5255;
     font-family: 'Abril Fatface';
     font-size: 16px;
@@ -207,7 +208,7 @@ label {
 
 .tekst p{
    margin-top:4px;
-    font-size: 10px;
+    font-size: 12px;
     width:94%
 }
 
@@ -265,7 +266,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 color:white;
 letter-spacing: 0.5px;
-
 
 }
 
@@ -534,6 +534,7 @@ font-weight: 100;
     color: white;
     font-family:  'Raleway', sans-serif;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .kurv_container{
@@ -596,6 +597,58 @@ width: 90%;
 }
 
 /* produktside styling SLUT *//* produktside styling SLUT *//* produktside styling SLUT *//* produktside styling SLUT */
+
+/* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling */
+
+.content_kurv{
+    margin-top: 110px;
+}
+
+.content_kurv h1{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    color: #4C4044;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.kurv_streg_overskrift{
+    padding: 2px 5px 5px 2px;
+    background-color: #768281;
+    width: 225px;
+    margin: auto;
+    position: relative;
+    top: -5px; 
+}
+
+.tom_kurv{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4C4044;
+}
+
+.kurv_knap_tom{
+    background-color: #768281;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-family:  'Raleway', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    width: 
+}
+
+.kurv_tom_container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* indkøbskurv styling - SLUT *//* indkøbskurv styling - SLUT *//* indkøbskurv styling - SLUT */
+
 
 /* footer */
 footer {
@@ -698,7 +751,7 @@ footer {
         color: #4C4044;
         float: left;
         position: relative;
-        left: 20%;
+        left: 14.5%;
     }
 
     .headlogo {
@@ -965,6 +1018,19 @@ margin-top: 0;
     }
     
 /* produktside styling - TABLET - SLUT *//* produktside styling - TABLET - SLUT *//* produktside styling - TABLET - SLUT */
+/* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling *//* indkøbskurv styling */
+    
+.content_kurv h1{
+    font-size: 50px;
+}
+
+.kurv_streg_overskrift{
+    width: 380px;
+}
+
+
+
+
 
     
 /* Footer */    
@@ -1055,7 +1121,11 @@ margin-top: 0;
         color: #4C4044;
         float: left;
         top: -26px;
-        left:27%
+<<<<<<< HEAD
+        left:26%
+=======
+        left:20%
+>>>>>>> 65ae9785b5921bba7112448f89f1a4d21cb05d38
         
         
     }
@@ -1191,7 +1261,7 @@ margin: 20px 0px 0px 150px;
 }
 @media (min-width: 1440px) {
     .commenu a{
-        left: 32%;
+        left: 28%;
     }
     
     
