@@ -91,8 +91,9 @@ h3{
 }
 
 .overlay-content img {
-    width: 100px;
+    width: 25%;
     padding-top: 20px;
+    margin-left:37.5%;
 
 }
 
@@ -181,7 +182,7 @@ label {
 .hero button{
     position: absolute;
     border:none;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
     color:#5C5255;
     font-family: 'Abril Fatface';
     font-size: 16px;
@@ -207,7 +208,7 @@ label {
 
 .tekst p{
    margin-top:4px;
-    font-size: 10px;
+    font-size: 12px;
     width:94%
 }
 
@@ -265,7 +266,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 color:white;
 letter-spacing: 0.5px;
-
 
 }
 
@@ -326,7 +326,7 @@ letter-spacing: 0.5px;
     margin-left: 15%;
 }
 .filter-content2 {
-    margin-left: 30%;
+    margin-left: 37%;
 }
 .filter-content li, .filter-content1 li, .filter-content2 li {
     cursor: pointer;
@@ -372,8 +372,28 @@ letter-spacing: 0.5px;
 .produktbeskrivelse {
     color: #4C4044;
     text-align: center;
+    margin: 7px;
+    line-height: 25px;
+}
+/* Styling af produktekst - navnet typen og prisen */
+.type, .toj-navn, .pris {
+    text-decoration: none;
+    color: #4C4044;
+    margin: 5px;
 }
 
+.toj-navn {
+    font-size: 20px;
+}
+
+.type {
+    font-size: 14px;
+}
+
+.pris {
+    margin-top: 20px;
+    font-size: 16px;
+}
 /* læg i kurv knap */
 
 .kurv-knap {
@@ -385,8 +405,9 @@ letter-spacing: 0.5px;
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
-    padding: 8px 30px 8px 30px;
-
+    padding: 3px 10px 8px 10px;
+    margin: 5px;
+    line-height: 40px;
 }
 
 /* produktside styling *//* produktside styling *//* produktside styling *//* produktside styling *//* produktside styling */
@@ -733,7 +754,7 @@ footer {
         color: #4C4044;
         float: left;
         position: relative;
-        left: 20%;
+        left: 14.5%;
     }
 
     .headlogo {
@@ -880,10 +901,10 @@ footer {
     }
 
 .filter-content1 {
-    margin-left: 12%;
+    margin-left: 10%;
 }
 .filter-content2 {
-    margin-left: 26%;
+    margin-left: 22%;
 }
     
 /* wrapper om billede og produktinformationen */
@@ -1101,7 +1122,11 @@ width: 15%;
         color: #4C4044;
         float: left;
         top: -26px;
+<<<<<<< HEAD
         left:26%
+=======
+        left:20%
+>>>>>>> 65ae9785b5921bba7112448f89f1a4d21cb05d38
         
         
     }
@@ -1166,12 +1191,13 @@ width: 15%;
     /*WEBSHOP*/
 /* filtercontent dropdown */
     .filter-content1 {
-        margin-left: 10%;
+        margin-left: 6%;
     }
     
     .filter-content2 {
-        margin-left: 20%;
+        margin-left:15%;
     }
+    
 /* wrapper om billede og produktinformationen */
 .produkt {
     width: 28.4%;
@@ -1232,7 +1258,7 @@ margin: 20px 0px 0px 150px;
 }
 @media (min-width: 1440px) {
     .commenu a{
-        left: 32%;
+        left: 28%;
     }
     
     
