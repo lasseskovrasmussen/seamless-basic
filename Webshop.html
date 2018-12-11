@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="filterknapper">
+        <section class="filterknapper">
             <button class="filterdrop">Farve</button>
             <div class="filter-content2">
                 <li id="sort">Sort</li>
@@ -85,7 +85,7 @@
                 <li id="nude">Nude</li>
                 <li id="lyserod">Lyserød</li>
             </div>
-        </div>
+        </section>
 
     </section>
 
@@ -119,7 +119,7 @@
             </div>
 
         </div>
-        <div class="produkt silke sort overdel">
+        <div class="produkt silke gra overdel">
             <a href="#"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
             <div class="produktbeskrivelse">
                 <h3>Elvira</h3>
@@ -128,7 +128,7 @@
             </div>
         </div>
 
-        <div class="produkt merinould hvid overdel">
+        <div class="produkt merinould nude overdel">
             <a href="#"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
             <div class="produktbeskrivelse">
                 <h3>Elvira</h3>
@@ -137,7 +137,7 @@
             </div>
         </div>
 
-        <div class="produkt silke sort underdel">
+        <div class="produkt bomuld lyesrod underdel">
             <a href="#"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
             <div class="produktbeskrivelse">
                 <h3>Elvira</h3>
@@ -178,7 +178,8 @@
         function closeNav() {
             document.getElementById("myNav").style.width = "0%";
         }
-
+        
+        
         var klik = $("#bomuld");
         klik.click(function() {
 
@@ -212,7 +213,7 @@
                 $('.silke').hide();
             }
             skjul();
-            $('silke').show();
+            $('.silke').show();
         });
 
         var klik = $("#overdel");
