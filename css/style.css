@@ -326,7 +326,7 @@ letter-spacing: 0.5px;
     margin-left: 15%;
 }
 .filter-content2 {
-    margin-left: 30%;
+    margin-left: 37%;
 }
 .filter-content li, .filter-content1 li, .filter-content2 li {
     cursor: pointer;
@@ -372,8 +372,28 @@ letter-spacing: 0.5px;
 .produktbeskrivelse {
     color: #4C4044;
     text-align: center;
+    margin: 7px;
+    line-height: 25px;
+}
+/* Styling af produktekst - navnet typen og prisen */
+.type, .toj-navn, .pris {
+    text-decoration: none;
+    color: #4C4044;
+    margin: 5px;
 }
 
+.toj-navn {
+    font-size: 20px;
+}
+
+.type {
+    font-size: 14px;
+}
+
+.pris {
+    margin-top: 20px;
+    font-size: 16px;
+}
 /* læg i kurv knap */
 
 .kurv-knap {
@@ -385,8 +405,9 @@ letter-spacing: 0.5px;
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
-    padding: 8px 30px 8px 30px;
-
+    padding: 3px 10px 8px 10px;
+    margin: 5px;
+    line-height: 40px;
 }
 
 /* produktside styling *//* produktside styling *//* produktside styling *//* produktside styling *//* produktside styling */
@@ -827,10 +848,10 @@ footer {
     }
 
 .filter-content1 {
-    margin-left: 12%;
+    margin-left: 10%;
 }
 .filter-content2 {
-    margin-left: 26%;
+    margin-left: 22%;
 }
     
 /* wrapper om billede og produktinformationen */
@@ -1100,12 +1121,13 @@ width: 15%;
     /*WEBSHOP*/
 /* filtercontent dropdown */
     .filter-content1 {
-        margin-left: 10%;
+        margin-left: 6%;
     }
     
     .filter-content2 {
-        margin-left: 20%;
+        margin-left:15%;
     }
+    
 /* wrapper om billede og produktinformationen */
 .produkt {
     width: 28.4%;
