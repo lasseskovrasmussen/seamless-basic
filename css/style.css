@@ -678,8 +678,7 @@ footer {
         color: #4C4044;
         float: left;
         position: relative;
-        top: ;
-        left: 14%
+        left: 20%;
     }
 
     .headlogo {
@@ -1009,8 +1008,7 @@ width: 15%;
 
     .comlogo {
         display: inline;
-        min-width: 150px;
-        max-width: 200px;
+        width: 210px;
         margin-top: 9px;
         margin-left: 2%;
         display: inline-block;
@@ -1027,15 +1025,15 @@ width: 15%;
 
     .commenu a {
 
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
         margin-top: -6px;
-        padding-left: 80px;
+        padding-left: 100px;
         color: #4C4044;
         float: left;
         top: -26px;
-        left:22%
+        left:27%
         
         
     }
@@ -1163,7 +1161,7 @@ margin: 20px 0px 0px 150px;
 
 @media (min-width: 1440px) {
     .commenu a{
-        left:32%;
+        left: 32%;
     }
     
     
