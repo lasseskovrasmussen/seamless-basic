@@ -187,9 +187,9 @@ label {
     font-family: 'Abril Fatface';
     font-size: 16px;
     text-decoration: underline;
-    width:120px;
-    height:40px;
-    top:85%;
+    width:100px;
+    height:33px;
+    top:89%;
     left:55%;
     
 }
@@ -302,9 +302,9 @@ letter-spacing: 0.5px;
 .stregforside{
     
     background-color:#768281;
-    width: 38.8%;
+    width: 32.8%;
     position:relative;
-    left:56.5%;
+    left:62.0%;
     top:-15px;
     height:10px;
     
@@ -826,7 +826,7 @@ footer {
 }
     
     .hero button{
-        left:74.5%;
+        left:77.5%;
         top: 90%; 
         height:30px;
         width:100px;
@@ -1379,7 +1379,7 @@ margin: 20px 0px 0px 150px;
         height:60px;
         font-size:28px;
         top:87%;
-        left:80%
+        left:81%
     }
     
     /*teaser på forside*/
