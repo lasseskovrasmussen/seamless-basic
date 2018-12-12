@@ -350,10 +350,10 @@ letter-spacing: 0.5px;
 }
 
 .filter-content1 {
-    margin-left: 15%;
+    margin-left: 22%;
 }
 .filter-content2 {
-    margin-left: 37%;
+    margin-left: 47%;
 }
 .filter-content li, .filter-content1 li, .filter-content2 li {
     cursor: pointer;
@@ -381,7 +381,7 @@ letter-spacing: 0.5px;
 .produkt {
     float: left;
     margin: 10px;
-    width: 40%;
+    width: 44.3%;
     margin-bottom: 30px;
 }
 
@@ -399,14 +399,13 @@ letter-spacing: 0.5px;
 .produktbeskrivelse {
     color: #4C4044;
     text-align: center;
-    margin: 7px;
-    line-height: 25px;
+    margin: 10px;
+    line-height: 23px;
 }
 /* Styling af produktekst - navnet typen og prisen */
 .type, .toj-navn, .pris {
     text-decoration: none;
     color: #4C4044;
-    margin: 5px;
 }
 
 .toj-navn {
@@ -419,7 +418,7 @@ letter-spacing: 0.5px;
 
 .pris {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 15px;
 }
 /* læg i kurv knap */
 
@@ -686,7 +685,7 @@ footer {
     font-weight: lighter;
     color: white;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     width: 100%;
     height: 100%;
 }
@@ -695,14 +694,14 @@ footer {
 
 .footer-list {
     list-style-type: none;
-    padding: 20px;
+    padding:10px;
     font-weight: lighter;
 }
 
 /* logo i footer */
 
 .footer-logo {
-    width: 10%;
+    width: 15%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -728,7 +727,7 @@ footer {
 
 .instagram {
     width: 5%;
-    margin-top: -30px;
+    margin-top: -15px;
     margin-left: auto;
 }
 
