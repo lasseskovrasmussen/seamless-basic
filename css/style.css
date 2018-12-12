@@ -312,7 +312,9 @@ letter-spacing: 0.5px;
     
 }
 
-
+.imgbund {
+    display: none;
+}
 /*WEBSHOP */
 /* Filtrering af tøjet*/
 .filtrering {
@@ -940,7 +942,9 @@ footer {
     
 }
 
-
+    .imgbund {
+        display: block;
+    }
 /* webshop */
     .filtrering {
         margin-left: 35%;
