@@ -1108,7 +1108,8 @@ margin-top: 0;
         margin-left: 0;
         margin-right: 10px;
         margin-bottom: 0;
-        width: 9%
+        width: 9%;
+        padding-top: 9px;        
     }
     .kontakt-info, .fakta {
         margin: -17px 35px 0 15px;
