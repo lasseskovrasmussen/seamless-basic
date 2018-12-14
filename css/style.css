@@ -336,7 +336,7 @@ letter-spacing: 0.5px;
     margin-right: 10%;
 }
 .filterdrop {
-    background-color: #ffff;
+    background-color: white;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -674,7 +674,6 @@ width: 90%;
     font-family:  'Raleway', sans-serif;
     font-size: 16px;
     text-decoration: none;
-    width: 
 }
 
 .kurv_tom_container{
@@ -847,6 +846,9 @@ width: 90%;
     color: #4C4044;
 }
 
+#seamless_liste li{
+    margin-top: 15px;
+}
 
 
 /*styling som fjerne de sorte prikker*/
