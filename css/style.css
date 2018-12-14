@@ -189,7 +189,7 @@ label {
 
 
 
-.hero button{
+.hero a{
     position: absolute;
     border:none;
     background-color:#FFFFFF;
@@ -198,15 +198,15 @@ label {
     height:30px;
     top:91%;
     left:66%;
+    font-size: 16px; 
+    font-family: 'Abril Fatface';
+    text-align: center;
+    padding-top: 4px;
+    
     
 }
 
-.hero a{
-    background-color:#FFFFFF;
-    color:#5C5255;
-    font-family: 'Abril Fatface';
-    font-size: 16px;   
-}
+
 
 .tekst{
     position:absolute;
@@ -1161,7 +1161,7 @@ footer {
     
 }
     
-    .hero button{
+    .hero a{
         left:77.5%;
         top: 90%; 
         height:30px;
@@ -1741,7 +1741,7 @@ margin-top: 0;
         display: none;
     }
     
-    .hero button{
+    .hero a{
         width:120px;
         height:40px;
         font-size: 18px;
@@ -1948,20 +1948,19 @@ margin: 20px 0px 0px 150px;
         font-size:22px
     }
     
-    .hero button{
-        
-    }
+  
     
     .tekst {
     
         top:56%;
     }
     
-    .hero button{
+    .hero a{
         width: 160px;
         height:50px;
         top:87%;
-        left:81%
+        left:81%;
+        
     }
     
     .hero a{
