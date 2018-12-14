@@ -23,6 +23,7 @@ ul{
 
 h1{
     font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
     
 }
 
@@ -713,9 +714,6 @@ width: 90%;
     margin-left: auto;
     margin-right: auto;
     
-    
-    
-    
 }
 
 
@@ -745,6 +743,7 @@ width: 90%;
     position: absolute;
     font-size: 30px;
     width: 200px;
+    color: #4C4044;
 }
 
 /*styling til streg under overskriften */
@@ -793,6 +792,7 @@ width: 90%;
     font-size: 13px;
     text-align: center;
     font-weight: 900;
+    color: #4C4044;
 }
 
 
@@ -817,7 +817,8 @@ width: 90%;
     font-size: 23px;
     margin-left: 12%;
     font-weight: normal;
-    width: 275px;  
+    width: 275px;
+    color: #4C4044;
 }
 
 
@@ -843,6 +844,7 @@ width: 90%;
     margin-right: auto;
     list-style: none;
     font-family: 'Raleway', sans-serif;
+    color: #4C4044;
 }
 
 
@@ -872,6 +874,7 @@ width: 90%;
     font-weight: normal;
     left: 12%;
     width: 120px;
+    color: #4C4044;
 }
 
 
@@ -931,6 +934,7 @@ width: 90%;
     font-weight: normal;
     width: 130px;
     margin-left: 12%;
+    color: #4C4044;
     
 }
 
@@ -950,6 +954,7 @@ width: 90%;
     margin-left: 5%;
     margin-top: 5px;
     font-size: 13px;
+    color: #4C4044;
 }
 
 #guide {
@@ -982,6 +987,7 @@ width: 90%;
     font-weight: normal;
     left: 12%;
     width: 120px;
+    color: #4C4044;
 }
 
 .hvem_streg5 {
