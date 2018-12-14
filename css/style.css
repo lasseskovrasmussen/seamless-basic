@@ -14,8 +14,15 @@ body {
 
 p,
 h2,
-h3{
+h3,
+a, 
+ul{
  font-family: 'Raleway', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
     
 }
 
@@ -31,6 +38,8 @@ h3{
     color: white;
     letter-spacing: 2px;
 }
+
+
 
 .fed {
 
