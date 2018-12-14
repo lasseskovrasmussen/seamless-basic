@@ -217,7 +217,7 @@ label {
 
 .tekst h1{
     margin-bottom: 0;
-    margin-top:7px;
+    
     width:100%;
 }
 
@@ -1150,6 +1150,7 @@ footer {
     
     font-size: 30px;
     
+    
 }
 
 .tekst p{
@@ -1722,6 +1723,7 @@ margin-top: 0;
     
     .tekst h1{
         font-size: 40px;
+        
     }
     
     .tekst p{
