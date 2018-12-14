@@ -21,7 +21,7 @@
     <div id="myNav" class="overlay">
 
         <!-- lukke knap i burgermenu -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="closebtn" onclick="closeNav()">&times;</a>
 
         <!-- Menu indhold -->
         <div class="overlay-content">
@@ -43,8 +43,8 @@
         <!-- Åben burger menu med -->
         <label onclick="openNav()" class="burgermenu"> &#9776;</label>
 
-        <img class="headlogo" src="images/morktlogo.png" alt="seamless-basic logo">
-        <img src="images/logomenu.png" alt="seamless-basic logo" class="comlogo">
+        <a href="index.html"><img class="headlogo" src="images/morktlogo.png" alt="seamless-basic logo"></a>
+        <a href="index.html"><img src="images/logomenu.png" alt="seamless-basic logo" class="comlogo"></a>
 
         <ul class="commenu">
             <li><a href="index.html">Forside</a></li>
@@ -56,69 +56,69 @@
 
     </header>
 
-<article class="content_kurv">
-<h1>Din indkøbskurv</h1>
+    <article class="content_kurv">
+        <h1>Din indkøbskurv</h1>
 
-<div class="kurv_streg_overskrift"></div>
+        <div class="kurv_streg_overskrift"></div>
 
-<p class="tom_kurv">Din kurv er tom</p>
+        <p class="tom_kurv">Din kurv er tom</p>
 
-<div class="kurv_tom_container">
-<a href="webshop.html" class="kurv_knap_tom">
+        <div class="kurv_tom_container">
+            <a href="webshop.html" class="kurv_knap_tom">
 Gå til webshop 
 </a>
-</div>  
-<!-- produkter bund -->
-   
-<!-- overskrift -->
-   <div class="produkter_bund_overskrift">
-    <h2 class="overskrift_bund">Populære produkter</h2>
-    <div class="streg_overskrift"></div>
-    </div>
-    
-<!-- overskrift slut -->
-   
-<!-- produkter -->   
+        </div>
+        <!-- produkter bund -->
 
-    <div class="produkter_bund">
-    
-        <div class="produkt overdel sort bomuld">
-            <a href="produktside.html"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
-            <div class="produktbeskrivelse">
-                <h3>Elvira</h3>
-                <p class="type">Seamless long sleeve t-shirt</p>
-                <p class="pris">299 DKK</p>
-                <a href="kurv.html" class="kurv-knap">Læg i kurv</a>
+        <!-- overskrift -->
+        <div class="produkter_bund_overskrift">
+            <h2 class="overskrift_bund">Populære produkter</h2>
+            <div class="streg_overskrift"></div>
+        </div>
+
+        <!-- overskrift slut -->
+
+        <!-- produkter -->
+
+        <div class="produkter_bund">
+
+            <div class="produkt overdel sort bomuld">
+                <a href="produktside.html"><img src="images/seamless-overdel.jpg" alt="Overdel" class="toj-galleri"></a>
+                <div class="produktbeskrivelse">
+                    <h3>Elvira</h3>
+                    <p class="type">Seamless long sleeve t-shirt</p>
+                    <p class="pris">299 DKK</p>
+                    <a href="kurv.html" class="kurv-knap">Læg i kurv</a>
+                </div>
+            </div>
+
+            <div class="produkt merinould hvid overdel">
+                <a href="produktside.html"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
+                <div class="produktbeskrivelse">
+                    <h3>Elvira</h3>
+                    <p class="type">Seamless long sleeve t-shirt</p>
+                    <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+                </div>
+            </div>
+
+            <div class="produkt_3_infoside">
+                <div class="produkt silke sort underdel">
+                    <a href="produktside.html"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
+                    <div class="produktbeskrivelse">
+                        <h3>Elvira</h3>
+                        <p class="type">Seamless long sleeve t-shirt</p>
+                        <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-        <div class="produkt merinould hvid overdel">
-            <a href="produktside.html"><img src="images/seamless-top.jpg" alt="top" class="toj-galleri"></a>
-            <div class="produktbeskrivelse">
-                <h3>Elvira</h3>
-                <p class="type">Seamless long sleeve t-shirt</p>
-                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
-            </div>
-        </div>
 
-       <div class="produkt_3_infoside">
-        <div class="produkt silke sort underdel">
-            <a href="produktside.html"><img src="images/seamless-shorts.jpg" alt="Shorts" class="toj-galleri"></a>
-            <div class="produktbeskrivelse">
-                <h3>Elvira</h3>
-                <p class="type">Seamless long sleeve t-shirt</p>
-                <p class="pris">299 DKK</p><a href="#" class="kurv-knap">Læg i kurv</a>
-            </div>
-
-        </div>
-        </div>
-        </div>
+    </article>
 
 
-</article>
-
-
- <footer>
+    <footer>
 
         <section class="footer-list">
             <img src="images/hvidt-logo.png" alt="Seamless Logo" class="footer-logo">
@@ -143,15 +143,15 @@ Gå til webshop
 
 
 
-<!-- script til burgermenu -->
-      <script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
+    <!-- script til burgermenu -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </body>
 </html>
