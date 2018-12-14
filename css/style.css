@@ -678,6 +678,320 @@ width: 90%;
 /* indkøbskurv styling - SLUT *//* indkøbskurv styling - SLUT *//* indkøbskurv styling - SLUT */
 
 
+/* hvem side styling *//* hvem side styling *//* hvem side styling *//* hvem side styling *//* hvem side styling */
+.hvem_side {
+    margin-top: 100px;
+    width: 100%;
+    margin-right: 0;
+
+}
+
+/* styling af alle streger */
+
+.hvem_streg {
+    background-color: #768281;
+    padding: 5px;
+    position: absolute;
+}
+
+
+/* styling af alle tekster */
+
+.hvem_tekst {
+    text-align: center;
+    font-size: 13px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+
+
+/* styling af hvem er vi container */
+
+.hvem_er_vi {
+    display: flex;
+    flex-direction: column;
+}
+
+/* styling til billede */
+
+#hvem_billede {
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+    z-index: -1;
+}
+
+
+/*styling til overskriften */
+
+.hvem_overskrift {
+    font-weight: normal;
+    top: 80px;
+    left: 47%;
+    position: absolute;
+    font-size: 30px;
+    width: 200px;
+}
+
+/*styling til streg under overskriften */
+
+.hvem_streg1 {
+    margin-top: 50px;
+    margin-left: 35%;
+    width: 200px; 
+}
+
+
+/* styling til tegn */
+
+#tegn1,
+#tegn2 {
+    font-size: 50px;
+    font-family: cursive;
+    margin: 0;
+}
+
+#tegn1 {
+    margin-bottom: -50px;
+}
+
+#tegn2 {
+    position: relative;
+    left: 80%;
+    max-width: 1px;
+    top: -25px;
+}
+
+
+
+
+/*styling til tekst */
+
+.hvem_er_vi_indhold {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50%;
+    width: 45%;
+    
+}
+
+.trine_tekst {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+#underskrift {
+    width: 70%;
+    position: relative;
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* styling til seamless afsnit*/
+
+#seamless {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px; 
+}
+
+#seamless_overskrift {
+    font-size: 23px;
+    margin-left: 12%;
+    font-weight: normal;
+    width: 275px;  
+}
+
+
+.hvem_streg2 {
+    width: 88%;
+    margin-top: 53px;
+    left: 0;
+}
+
+
+#seamless_billede {
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#seamless_liste {
+    position: relative;
+    font-size: 13px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*styling som fjerne de sorte prikker*/
+
+
+
+
+/*styling til prikker*/
+
+#seamless_liste ::before {
+    content: "\2022";
+    font-size: 13px;
+    color: #768281;
+    display: inline-block;
+    width: 15px;
+}
+
+
+
+/* Styling til kvaliterne afsnit */
+
+#kvali_overskrift {
+    position: relative;
+    font-size: 25px;
+    font-weight: normal;
+    left: 12%;
+    width: 120px;
+}
+
+
+.hvem_streg3 {
+    margin-top: -20px;
+    position: relative;
+    right: -12%;
+    width: 88%;
+    
+}
+
+
+.kvali_og {
+    font-size: 200%;
+    font-family: 'Abril Fatface', cursive;
+    color: #768281;
+}
+
+#kvali_billede {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    left: 70px;
+}
+
+.kvali_100 {
+    position: relative;
+    right: -60%;
+    max-width: 0%;
+    line-height: 4px;
+    margin-top: -100px;
+}
+
+.kvalitet_beskrivelse_linje {
+    display: flex;
+    margin-top: -20px;
+}
+
+.kvali_silke {
+    margin-left: 12px;
+}
+
+.kvali_flex {
+    float: right;
+    margin-bottom: 5%;
+}
+
+
+
+/* Styling til vaskeguide afsnit */
+
+#guide_overskrift {
+    position: relative;
+    right: 0px;
+    font-size: 25px;
+    font-weight: normal;
+    width: 130px;
+    margin-left: 12%;
+    
+}
+
+.hvem_streg4 {
+    margin-top: -19px;
+    width: 88%;
+
+
+}
+
+
+/* Styling af vaskeguide */
+
+.guide_gruppe p {
+    text-align: center;
+    width: 90px;
+    margin-left: 5%;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#guide {
+    width: 100%;
+    margin: 10% 0% 0% 8%;
+    
+}
+
+.guide_gruppe {
+    width: 39%;
+    height: 30%;
+    float: left;
+    margin-left: 5%;
+
+}
+
+
+.vaskeguide1 img {
+    position: relative;
+    width: 80%;
+}
+
+
+/* Styling til emballage afsnit */
+
+
+#emba_overskrift {
+    position: relative;
+    font-size: 25px;
+    font-weight: normal;
+    left: 12%;
+    width: 120px;
+}
+
+.hvem_streg5 {
+    margin-top: -18px;
+    position: relative;
+    right: -12%;
+    width: 88%;
+}
+
+
+
+#emba_billede {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+/* hvem styling slut *//* hvem styling slut *//* hvem styling slut *//* hvem styling slut */
+
 /* footer */
 footer {
     clear: both;
@@ -734,7 +1048,6 @@ footer {
 }
 
 /*tablet*/
-
 @media (min-width: 767px)  {
   
   header {
@@ -1083,7 +1396,203 @@ margin-top: 0;
 }
 
 
+    /* HVEM ER VI SIDE TABLET START */    /* HVEM ER VI SIDE TABLET START */    /* HVEM ER VI SIDE TABLET START */
+    
+    /* styling af hele siden */
+    .hvem_side {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+    }
 
+    #seamless_billede{
+        width: 40%;
+        position: absolute;
+        right: -75px;
+        top: 800px;
+        margin-left: 0;
+    }
+
+#seamless_liste {
+    width: 320px;
+    margin: 50px 0px 0px -30px;
+    font-size: 20px;
+}
+
+    .hvem_tekst {
+        font-size: 20px;
+        text-align: inherit;
+        width: 70%;
+        margin-left: 0%;
+    }
+    
+    
+    .web_tekst_right{
+        position: relative;
+        left:36%
+        
+    }
+
+    .web_tekst_left{
+        margin-left: -30px;
+
+        
+    }
+
+    /* styling af trine afsnit */
+    .hvem_streg1 {
+        width: 45%;
+        right: 85px;
+    }
+
+    .hvem_overskrift{
+        margin-left: 5%;
+        font-size: 45px;
+        width: 300px;
+        margin-top: 65px;
+    }
+
+    .hvem_er_vi_indhold {
+        margin-left: 40%;
+        margin-right: 4%;
+        width: 370px;
+        max-width: 400px;
+    }
+    
+
+    
+    .trine_tekst {
+    font-size: 20px;
+}
+
+    #tegn1{
+        position: relative;
+        left: -35px;
+    }
+    
+    #tegn2 {
+        left: 360px; 
+    }
+
+
+    #underskrift {
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 45%;
+        width: 40%;
+    }
+
+/* styling af hvad er seamless *//* styling af hvad er seamless *//* styling af hvad er seamless */
+    
+    #seamless_overskrift {
+        position: relative;
+        font-size: 35px;
+        width: 390px;
+        margin-left: 0;
+        right: -2%;
+        
+    }
+
+    .hvem_streg2 {
+        margin-top: 80px;
+        width: 60%;
+    }
+
+
+
+
+
+    /* styling af kvalitet afsnit */    /* styling af kvalitet afsnit */    /* styling af kvalitet afsnit */
+    
+    #kvali_overskrift {
+        position: relative;
+        font-size: 35px;
+        left: 49%;
+        margin-bottom: 20px;
+    }
+    
+    #kvali{
+        margin-top: 100px;
+    }
+
+    .hvem_streg3 {
+        right: 0px;
+        width: 60%;
+        position: absolute;
+    }
+
+
+
+    #kvali_billede {
+    position: absolute;
+    width: 200px;
+    left: 70px;
+    top: 1300px;
+    }
+
+.kvali_100 {
+    position: absolute;
+    font-size: 25px;
+    top: 1630px;
+    left: 230px;
+    line-height: 4px;
+}
+    
+.kvali_og {
+    font-size: 150%; 
+}
+    
+
+
+    /* styling af vaskeguide afsnit */
+    #guide {
+        margin-bottom: 10%;
+    }
+
+    .vaskeguide1{
+        margin-top: 300px;
+    }
+
+    #guide p {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .guide_gruppe {
+        width: 27%;
+        margin-bottom: 30px;
+    }
+
+
+
+#guide_overskrift {
+        font-size: 35px;
+        width: 180px;
+        right: -22%;
+    }
+
+    .hvem_streg4 {
+        width:60%;
+        left: 0;
+        margin-top: -30px;
+    }
+
+/* styling emballage tablet *//* styling emballage tablet */
+    
+#emba_overskrift {
+    width: 88%;
+    font-size: 35px;
+    margin-bottom: 21px;
+    left: 11%;
+    
+}
+
+.hvem_streg5 {
+        right: 0px;
+        width: 60%;
+        position: absolute;
+}
 
 
     
@@ -1123,7 +1632,6 @@ margin-top: 0;
         width: 10%;
     }
 }
-
 
 /* Laptop */
 
@@ -1262,6 +1770,53 @@ margin-top: 0;
 
     
 }
+    
+/* HVEM ER VI SIDE START  pc */     /* HVEM ER VI SIDE START  pc */    /* HVEM ER VI SIDE START  pc */
+    
+.hvem_streg1{
+        margin-right: 15%;
+        width: 500px;
+    }
+ 
+    #seamless_billede{
+        position: absolute;
+        top: 990px;
+        width: 30%;
+        margin-right: 200px;
+    }
+    
+    #underskrift{
+        margin-top: 400px;
+        width: 30%;
+        
+    }
+    
+    #kvali{
+        margin-top: 300px;
+    }
+    
+    .kvali_flex{
+        top: 350px;
+        position: absolute;
+    }
+    
+    .vaskeguide1{
+        margin-top: 400px;
+
+    }
+    
+    #emba_overskrift{
+            left: 55%;
+            max-width: 100px;
+    }
+    
+    #guide{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
 
     
    
